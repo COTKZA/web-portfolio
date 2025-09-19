@@ -10,14 +10,14 @@ const Index = () => {
     };
 
     return (
-        <div id="home" className="relative bg-gradient-to-b from-zinc-800 via-neutral-800 to-neutral-900 pt-20 pb-20 sm:pb-20 sm:pt-20 md:pt-0 md:pb-0">
+        <div id="home" className="relative bg-gradient-to-b from-zinc-800 via-neutral-800 to-neutral-900">
             <img
                 src="/image/stacked-waves-haikei.svg"
                 className="absolute inset-0 w-full h-full object-cover  opacity-80"
                 alt="background blob"
             />
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="relative z-10 min-h-screen flex flex-col lg:flex-row items-center lg:justify-between">
+                <div className="relative z-10 min-h-screen flex flex-col lg:flex-row items-center lg:justify-between  pt-20 pb-20 sm:pb-20 sm:pt-20 md:pt-0 md:pb-0">
                     {/* Profile Image */}
                     <div className="flex-shrink-0 w-auto h-auto sm:w-86 sm:h-86 xl:w-130 xl:h-130 mt-18 lg:mt-0">
                         <img
