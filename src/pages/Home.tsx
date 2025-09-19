@@ -1,9 +1,18 @@
-import Navigation from "../components/layouts/Navigation"
+import Container from "../components/layouts/Container"
+import Index from "../components/Index"
+import SkillsTools from "../components/SkillsTools"
+import Myproject from "../components/Myproject"
+import Contacts from "../components/Contacts"
 
 const Home = () => {
   return (
     <>
-      <Navigation />
+      <Container>
+          <Index />
+          <SkillsTools />
+          <Myproject />
+          <Contacts />
+      </Container>
     </>
   )
 }
