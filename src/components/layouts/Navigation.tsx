@@ -50,9 +50,9 @@ const Navigation = () => {
     }, [mobile]);
 
     return (
-        <header>
+        <header className="bg-zinc-800">
             <nav
-                className={`w-full z-50 bg-background/80 bg-zinc-800 backdrop-blur-md border-b border-zinc-700 transition-all duration-600 ${fixed ? "fixed top-0 left-0" : "relative"}`}>
+                className={`w-full z-50 bg-background/80 bg-zinc-800/80 backdrop-blur-lg border-b border-zinc-700 transition-all duration-600 ${fixed ? "fixed top-0 left-0" : "relative"}`}>
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <nav className="flex justify-between items-center  h-20">
                         <h1 className="font-bold text-2xl sm:text-4xl text-white">Portfolio</h1>
