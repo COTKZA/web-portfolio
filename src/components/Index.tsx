@@ -10,7 +10,7 @@ const Index = () => {
     };
 
     return (
-        <div id="home" className="relative bg-gradient-to-b from-zinc-800 via-neutral-800 to-neutral-900 pt-10 md:pt-0">
+        <div id="home" className="relative bg-gradient-to-b from-zinc-800 via-neutral-800 to-neutral-900 pt-20 pb-20 sm:pb-20 sm:pt-20 md:pt-0 md:pb-0">
             <img
                 src="/image/stacked-waves-haikei.svg"
                 className="absolute inset-0 w-full h-full object-cover  opacity-80"
