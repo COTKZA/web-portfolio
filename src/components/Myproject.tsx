@@ -6,7 +6,7 @@ const Myproject = () => {
         className="absolute inset-0 w-full h-full object-cover  opacity-80"
         alt="background blob"
       />
-      <div className="relative min-h-screen max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center pb-20 sm:pb-20 md:pb-0">
+      <div className="relative min-h-screen max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center pt-20 pb-20 sm:pb-20 sm:pt-20 md:pt-0 md:pb-0">
         <h2 className="text-white font-extrabold text-4xl md:text-5xl z-10 ">
           ผลงาน
         </h2>
@@ -18,7 +18,7 @@ const Myproject = () => {
               <img src="/image/myproject/contact-card.png" loading="lazy" alt="" />
               <div className="flex items-center gap-2 mt-4">
                 <img src="/image/logos/react.png" loading="lazy" className="w-8 h-8 sm:w-10 sm:h-10 bg-white rounded-full p-1" alt="" />
-                <img src="/image/logos/Tailwind_CSS_Logo.png" loading="lazy" className="w-8 h- sm:w-10 sm:h-10 bg-white rounded-full p-1" alt="" />
+                <img src="/image/logos/Tailwind_CSS_Logo.png" loading="lazy" className="w-8 h-8 sm:w-10 sm:h-10 bg-white rounded-full p-1" alt="" />
               </div>
             </div>
           </a>   
