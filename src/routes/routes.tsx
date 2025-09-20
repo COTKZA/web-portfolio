@@ -3,7 +3,7 @@ import { createBrowserRouter } from "react-router";
 import Home from "../pages/Home";
 import ErrorPage from "../pages/ErrorPage";
 
-const routers = createBrowserRouter([
+const routes = createBrowserRouter([
     {
         path: '/',
         element: <Home />
@@ -14,4 +14,4 @@ const routers = createBrowserRouter([
     }
 ])
 
-export default routers
+export default routes
