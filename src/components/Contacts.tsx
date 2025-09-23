@@ -37,7 +37,7 @@ const Contacts = () => {
                             <div className="flex justify-center items-center">
                                 <BsGithub className="w-30 h-30 transition duration-500 transform group-hover:text-blue-500 " />
                             </div>
-                            <h1 className="text-white text-center text-xl mt-3">Jirasak Suktakua</h1>
+                            <h1 className="text-white text-center text-xl md:text-sm lg:text-xl mt-3">Jirasak Suktakua</h1>
                         </div>
                     </a>
 
@@ -46,7 +46,7 @@ const Contacts = () => {
                             <div className="flex justify-center items-center">
                                 <BsFacebook className="w-30 h-30 transition duration-500 transform group-hover:text-blue-500 " />
                             </div>
-                            <h1 className="text-white text-center text-xl mt-3">Jirasak Suktakua</h1>
+                            <h1 className="text-white text-center text-xl md:text-sm lg:text-xl mt-3">Jirasak Suktakua</h1>
                         </div>
                     </a>
 
@@ -54,7 +54,7 @@ const Contacts = () => {
                         <div className="flex justify-center items-center">
                             <BiLogoGmail className="w-30 h-30 transition duration-500 transform group-hover:text-blue-500 " />
                         </div>
-                        <h1 className="text-white text-center text-lg mt-3 flex items-center justify-center gap-2"> {email}
+                        <h1 className="text-white text-center text-xl md:text-sm lg:text-xl mt-3 flex items-center justify-center gap-2"> {email}
                             {copied ? (
                                 <FaCopy className="text-md text-white" />
                             ) : (
