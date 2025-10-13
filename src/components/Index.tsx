@@ -23,7 +23,7 @@ const Index = () => {
                         <img
                             src="/image/profile/profile.jpg"
                             className="w-full h-full border-4 border-white/80 rounded-full object-cover"
-                            loading="lazy"
+                            loading="eager"
                             alt="profile"
                         />
                     </div>
