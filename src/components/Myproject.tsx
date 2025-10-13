@@ -16,7 +16,7 @@ const Myproject = () => {
             <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group hover:border-[#0c78e5]">
               <h1 className="text-white font-bold text-xl sm:text-2xl mb-3 group-hover:text-[#0c78e5]/90 transition duration-300 transform">Contact Card</h1>
               <img src="/image/myproject/contact-card.png" className="w-full grayscale group-hover:grayscale-0 transition duration-300" loading="eager" alt="contact-card" />
-              <div className="flex items-center gap-2 mt-4">
+              <div className="flex items-center gap-2  grayscale group-hover:grayscale-0 transition duration-300 mt-4">
                 <div className="bg-neutral-700 rounded-full p-1">
                   <img src="/image/logos/react.png" loading="eager" className="w-8 h-8 sm:w-10 sm:h-10 p-1" alt="" />
                 </div>
@@ -31,7 +31,7 @@ const Myproject = () => {
             <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group hover:border-[#0c78e5]">
               <h1 className="text-white font-bold text-xl sm:text-2xl mb-3 group-hover:text-[#0c78e5]/90 transition duration-300 transform">Shop Game</h1>
               <img src="/image/myproject/shop-game.png" className="w-full grayscale group-hover:grayscale-0 transition duration-300" loading="eager" alt="shop-game.png" />
-              <div className="flex items-center gap-2 mt-4">
+              <div className="flex items-center gap-2  grayscale group-hover:grayscale-0 transition duration-300 mt-4">
                 <div className="bg-neutral-700 rounded-full p-1">
                   <img src="/image/logos/Laravel.png" loading="eager" className="w-8 h-8 sm:w-10 sm:h-10 p-1" alt="" />
                 </div>
@@ -46,7 +46,7 @@ const Myproject = () => {
             <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group hover:border-[#0c78e5]">
               <h1 className="text-white font-bold text-xl sm:text-2xl mb-3 group-hover:text-[#0c78e5]/90 transition duration-300 transform">Anime Seven (Early Access)</h1>
                 <img src="/image/myproject/anime-seven.png" className="w-full grayscale group-hover:grayscale-0 transition duration-300" loading="eager" alt="anime-seven" />
-              <div className="flex items-center gap-2 mt-4">
+              <div className="flex items-center gap-2 grayscale group-hover:grayscale-0 transition duration-300 mt-4">
                 <div className="bg-neutral-700 rounded-full p-1">
                   <img src="/image/logos/react.png" loading="eager" className="w-8 h-8 sm:w-10 sm:h-10 p-1" alt="" />
                 </div>
