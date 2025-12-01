@@ -1,3 +1,6 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 const Myproject = () => {
   return (
     <div id="project" className="relative bg-gradient-to-b from-zinc-800 via-neutral-800 to-neutral-900">
@@ -16,13 +19,13 @@ const Myproject = () => {
             <a href="https://contact-card-mu.vercel.app/" target="_blank">
               <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group hover:border-[#0c78e5]">
                 <h1 className="text-white font-bold text-lg lg:text-xl xl:text-2xl mb-3 group-hover:text-[#0c78e5]/90 transition duration-300 transform">Contact Card</h1>
-                <img src="/image/myproject/contact-card.png" className="w-full transition duration-300" loading="eager" alt="contact-card" />
+                <LazyLoadImage src="/image/myproject/contact-card.png" className="w-full transition duration-300" effect="blur" alt="contact-card" />
                 <div className="flex items-center gap-2 transition duration-300 mt-4">
                   <div className="bg-neutral-700 rounded-full p-1">
-                    <img src="/image/logos/react.png" loading="eager" className="w-8 h-8 sm:w-10 sm:h-10 p-1" alt="" />
+                    <LazyLoadImage src="/image/logos/react.png" effect="blur" className="w-8 h-8 sm:w-10 sm:h-10 p-1" alt="" />
                   </div>
                   <div className="bg-neutral-700 rounded-full p-1">
-                    <img src="/image/logos/Tailwind_CSS_Logo.png" loading="eager" className="w-8 h-8 sm:w-10 sm:h-10 p-1" alt="" />
+                    <LazyLoadImage src="/image/logos/Tailwind_CSS_Logo.png" effect="blur" className="w-8 h-8 sm:w-10 sm:h-10 p-1" alt="" />
                   </div>
                 </div>
               </div>
@@ -31,13 +34,13 @@ const Myproject = () => {
             <a href="http://jirasak.duckdns.org:8087/" target="_blank">
               <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group hover:border-[#0c78e5]">
                 <h1 className="text-white font-bold text-lg lg:text-xl xl:text-2xl mb-3 group-hover:text-[#0c78e5]/90 transition duration-300 transform">Shop Game</h1>
-                <img src="/image/myproject/shop-game.png" className="w-full transition duration-300" loading="eager" alt="shop-game.png" />
+                <LazyLoadImage src="/image/myproject/shop-game.png" className="w-full transition duration-300" effect="blur" alt="shop-game.png" />
                 <div className="flex items-center gap-2 transition duration-300 mt-4">
                   <div className="bg-neutral-700 rounded-full p-1">
-                    <img src="/image/logos/Laravel.png" loading="eager" className="w-8 h-8 sm:w-10 sm:h-10 p-1" alt="" />
+                    <LazyLoadImage src="/image/logos/Laravel.png" effect="blur" className="w-8 h-8 sm:w-10 sm:h-10 p-1" alt="" />
                   </div>
                   <div className="bg-neutral-700 rounded-full p-1">
-                    <img src="/image/logos/Tailwind_CSS_Logo.png" loading="eager" className="w-8 h-8 sm:w-10 sm:h-10 p-1" alt="" />
+                    <LazyLoadImage src="/image/logos/Tailwind_CSS_Logo.png" effect="blur" className="w-8 h-8 sm:w-10 sm:h-10 p-1" alt="" />
                   </div>
                 </div>
               </div>
@@ -46,13 +49,13 @@ const Myproject = () => {
             <a href="http://jirasak.duckdns.org:5173/" target="_blank">
               <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group hover:border-[#0c78e5]">
                 <h1 className="text-white font-bold text-lg lg:text-xl xl:text-2xl mb-3 group-hover:text-[#0c78e5]/90 transition duration-300 transform">Anime Seven (Early Access)</h1>
-                <img src="/image/myproject/anime-seven.png" className="w-full transition duration-300" loading="eager" alt="anime-seven" />
+                <LazyLoadImage src="/image/myproject/anime-seven.png" className="w-full transition duration-300" effect="blur" alt="anime-seven" />
                 <div className="flex items-center gap-2 transition duration-300 mt-4">
                   <div className="bg-neutral-700 rounded-full p-1">
-                    <img src="/image/logos/react.png" loading="eager" className="w-8 h-8 sm:w-10 sm:h-10 p-1" alt="" />
+                    <LazyLoadImage src="/image/logos/react.png" effect="blur" className="w-8 h-8 sm:w-10 sm:h-10 p-1" alt="" />
                   </div>
                   <div className="bg-neutral-700 rounded-full p-1">
-                    <img src="/image/logos/Tailwind_CSS_Logo.png" loading="eager" className="w-8 h-8 sm:w-10 sm:h-10 p-1" alt="" />
+                    <LazyLoadImage src="/image/logos/Tailwind_CSS_Logo.png" effect="blur" className="w-8 h-8 sm:w-10 sm:h-10 p-1" alt="" />
                   </div>
                 </div>
               </div>
@@ -67,13 +70,13 @@ const Myproject = () => {
             <a href="https://contact-card-mu.vercel.app/" target="_blank">
               <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group hover:border-[#0c78e5]">
                 <h1 className="text-white font-bold text-lg lg:text-xl xl:text-2xl mb-3 group-hover:text-[#0c78e5]/90 transition duration-300 transform">Contact Card</h1>
-                <img src="/image/myproject/contact-card.png" loading="eager" alt="contact-card" />
+                <LazyLoadImage src="/image/myproject/contact-card.png" effect="blur" alt="contact-card" />
                 <div className="flex items-center gap-2 mt-4">
                   <div className="bg-neutral-700 rounded-full p-1">
-                    <img src="/image/logos/react.png" loading="eager" className="w-8 h-8 sm:w-10 sm:h-10 p-1" alt="" />
+                    <LazyLoadImage src="/image/logos/react.png" effect="blur" className="w-8 h-8 sm:w-10 sm:h-10 p-1" alt="" />
                   </div>
                   <div className="bg-neutral-700 rounded-full p-1">
-                    <img src="/image/logos/Tailwind_CSS_Logo.png" loading="eager" className="w-8 h-8 sm:w-10 sm:h-10 p-1" alt="" />
+                    <LazyLoadImage src="/image/logos/Tailwind_CSS_Logo.png" effect="blur" className="w-8 h-8 sm:w-10 sm:h-10 p-1" alt="" />
                   </div>
                 </div>
               </div>
@@ -82,13 +85,13 @@ const Myproject = () => {
             <a href="http://jirasak.duckdns.org:8087/" target="_blank">
               <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group hover:border-[#0c78e5]">
                 <h1 className="text-white font-bold text-lg lg:text-xl xl:text-2xl mb-3 group-hover:text-[#0c78e5]/90 transition duration-300 transform">Shop Game</h1>
-                <img src="/image/myproject/shop-game.png" loading="eager" alt="shop-game.png" />
+                <LazyLoadImage src="/image/myproject/shop-game.png" effect="blur" alt="shop-game.png" />
                 <div className="flex items-center gap-2 mt-4">
                   <div className="bg-neutral-700 rounded-full p-1">
-                    <img src="/image/logos/Laravel.png" loading="eager" className="w-8 h-8 sm:w-10 sm:h-10 p-1" alt="" />
+                    <LazyLoadImage src="/image/logos/Laravel.png" effect="blur" className="w-8 h-8 sm:w-10 sm:h-10 p-1" alt="" />
                   </div>
                   <div className="bg-neutral-700 rounded-full p-1">
-                    <img src="/image/logos/Tailwind_CSS_Logo.png" loading="eager" className="w-8 h-8 sm:w-10 sm:h-10 p-1" alt="" />
+                    <LazyLoadImage src="/image/logos/Tailwind_CSS_Logo.png" effect="blur" className="w-8 h-8 sm:w-10 sm:h-10 p-1" alt="" />
                   </div>
                 </div>
               </div>
@@ -97,13 +100,13 @@ const Myproject = () => {
             <a href="http://jirasak.duckdns.org:5173/" target="_blank">
               <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group hover:border-[#0c78e5]">
                 <h1 className="text-white font-bold text-lg lg:text-xl xl:text-2xl mb-3 group-hover:text-[#0c78e5]/90 transition duration-300 transform">Anime Seven (Early Access)</h1>
-                <img src="/image/myproject/anime-seven.png" loading="eager" alt="anime-seven" />
+                <LazyLoadImage src="/image/myproject/anime-seven.png" effect="blur" alt="anime-seven" />
                 <div className="flex items-center gap-2 mt-4">
                   <div className="bg-neutral-700 rounded-full p-1">
-                    <img src="/image/logos/react.png" loading="eager" className="w-8 h-8 sm:w-10 sm:h-10 p-1" alt="" />
+                    <LazyLoadImage src="/image/logos/react.png" effect="blur" className="w-8 h-8 sm:w-10 sm:h-10 p-1" alt="" />
                   </div>
                   <div className="bg-neutral-700 rounded-full p-1">
-                    <img src="/image/logos/Tailwind_CSS_Logo.png" loading="eager" className="w-8 h-8 sm:w-10 sm:h-10 p-1" alt="" />
+                    <LazyLoadImage src="/image/logos/Tailwind_CSS_Logo.png" effect="blur" className="w-8 h-8 sm:w-10 sm:h-10 p-1" alt="" />
                   </div>
                 </div>
               </div>
