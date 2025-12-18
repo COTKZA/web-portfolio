@@ -1,20 +1,20 @@
-import Container from "../components/layouts/Container"
-import Index from "../components/Index"
-import SkillsTools from "../components/SkillsTools"
-import Myproject from "../components/Myproject"
-import Contacts from "../components/Contacts"
+import Container from "../components/layouts/Container";
+import Index from "../components/Index";
+import SkillsTools from "../components/SkillsTools";
+import Myproject from "../components/Myproject";
+import Contacts from "../components/Contacts";
 
 const Home = () => {
   return (
     <>
       <Container>
-          <Index />
-          <SkillsTools />
-          <Myproject />
-          <Contacts />
+        <Index />
+        <SkillsTools />
+        <Myproject />
+        <Contacts />
       </Container>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

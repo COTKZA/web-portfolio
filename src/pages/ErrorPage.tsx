@@ -1,9 +1,10 @@
 
-
 const ErrorPage = () => {
   return (
-    <div>ErrorPage</div>
-  )
-}
+    <div className="bg-black h-screen">
 
-export default ErrorPage
+    </div>
+  );
+};
+
+export default ErrorPage;
