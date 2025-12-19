@@ -8,6 +8,11 @@ const SkillsTools = () => {
       href: "https://reactjs.org",
     },
     {
+      src: "/image/logos/nuxt.svg",
+      alt: "react",
+      href: "https://reactjs.org",
+    },
+    {
       src: "/image/logos/laravel.svg",
       alt: "Laravel",
       href: "https://laravel.com/",
