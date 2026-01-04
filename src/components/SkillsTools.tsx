@@ -4,12 +4,12 @@ const SkillsTools = () => {
   const frontandback = [
     {
       src: "/image/logos/react_dark.svg",
-      alt: "react",
+      alt: "React",
       href: "https://reactjs.org",
     },
     {
       src: "/image/logos/nuxt.svg",
-      alt: "react",
+      alt: "Nuxt",
       href: "https://reactjs.org",
     },
     {
@@ -24,7 +24,7 @@ const SkillsTools = () => {
     },
     {
       src: "/image/logos/expressjs_dark.svg",
-      alt: "express",
+      alt: "Express",
       href: "https://expressjs.com/",
     },
     {
