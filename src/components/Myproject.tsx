@@ -40,9 +40,9 @@ const Myproject = () => {
                       alt="logo"
                     />
 
-                    <div className="absolute top-[-40px] -translate-x-2 bg-white text-black text-sm px-3 py-1 rounded-md opacity-0 group-hover/icon:opacity-100 transition duration-300 whitespace-nowrap">
+                    <div className="absolute top-[-40px] -translate-x-2 bg-white text-black text-sm px-3 py-1 rounded-md opacity-0 group-hover/icon:opacity-100 transition duration-300 whitespace-nowrap border">
                       React
-                      <div className=" absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45">
+                      <div className=" absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45  border-b">
                       </div>
                     </div>
                   </div>
@@ -54,9 +54,9 @@ const Myproject = () => {
                       alt="logo"
                     />
 
-                    <div className="absolute top-[-40px] -translate-x-8 bg-white text-black text-sm px-3 py-1 rounded-md opacity-0 group-hover/icon:opacity-100 transition duration-300 whitespace-nowrap">
+                    <div className="absolute top-[-40px] -translate-x-8 bg-white text-black text-sm px-3 py-1 rounded-md opacity-0 group-hover/icon:opacity-100 transition duration-300 whitespace-nowrap border">
                       Tailwind CSS
-                      <div className="absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45">
+                      <div className="absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45  border-b">
                       </div>
                     </div>
                   </div>
@@ -86,9 +86,9 @@ const Myproject = () => {
                       alt="logo"
                     />
 
-                    <div className="absolute top-[-40px] -translate-x-2 bg-white text-black text-sm px-3 py-1 rounded-md opacity-0 group-hover/icon:opacity-100 transition duration-300 whitespace-nowrap">
+                    <div className="absolute top-[-40px] -translate-x-2 bg-white text-black text-sm px-3 py-1 rounded-md opacity-0 group-hover/icon:opacity-100 transition duration-300 whitespace-nowrap border">
                       Nuxt
-                      <div className=" absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45">
+                      <div className=" absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45 border-b">
                       </div>
                     </div>
                   </div>
@@ -100,9 +100,9 @@ const Myproject = () => {
                       alt="logo"
                     />
 
-                    <div className="absolute top-[-40px] -translate-x-8 bg-white text-black text-sm px-3 py-1 rounded-md opacity-0 group-hover/icon:opacity-100 transition duration-300 whitespace-nowrap">
+                    <div className="absolute top-[-40px] -translate-x-8 bg-white text-black text-sm px-3 py-1 rounded-md opacity-0 group-hover/icon:opacity-100 transition duration-300 whitespace-nowrap border">
                       Tailwind CSS
-                      <div className="absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45">
+                      <div className="absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45 border-b">
                       </div>
                     </div>
                   </div>
@@ -132,9 +132,9 @@ const Myproject = () => {
                       alt="logo"
                     />
 
-                    <div className="absolute top-[-40px] -translate-x-2 bg-white text-black text-sm px-3 py-1 rounded-md opacity-0 group-hover/icon:opacity-100 transition duration-300 whitespace-nowrap">
+                    <div className="absolute top-[-40px] -translate-x-2 bg-white text-black text-sm px-3 py-1 rounded-md opacity-0 group-hover/icon:opacity-100 transition duration-300 whitespace-nowrap border">
                       React
-                      <div className=" absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45">
+                      <div className=" absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45 border-b">
                       </div>
                     </div>
                   </div>
@@ -146,9 +146,9 @@ const Myproject = () => {
                       alt="logo"
                     />
 
-                    <div className="absolute top-[-40px] -translate-x-8 bg-white text-black text-sm px-3 py-1 rounded-md opacity-0 group-hover/icon:opacity-100 transition duration-300 whitespace-nowrap">
+                    <div className="absolute top-[-40px] -translate-x-8 bg-white text-black text-sm px-3 py-1 rounded-md opacity-0 group-hover/icon:opacity-100 transition duration-300 whitespace-nowrap border">
                       Tailwind CSS
-                      <div className="absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45">
+                      <div className="absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45 border-b">
                       </div>
                     </div>
                   </div>
