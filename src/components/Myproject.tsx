@@ -1,5 +1,6 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+import { BiLinkExternal } from "react-icons/bi";
 
 const Myproject = () => {
   return (
@@ -12,7 +13,7 @@ const Myproject = () => {
         className="absolute inset-0 w-full h-full object-cover  opacity-80"
         alt="background blob"
       />
-      <div className="relative min-h-screen max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center pt-20 pb-20 sm:pb-20 sm:pt-20 md:pt-0 md:pb-0">
+      <div className="relative min-h-screen max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center pt-20 pb-20">
         <h2 className="text-white font-extrabold text-4xl md:text-5xl z-10 ">
           ผลงาน
         </h2>
@@ -21,8 +22,11 @@ const Myproject = () => {
             {/* Contact Card */}
             <a href="https://contact-card-mu.vercel.app/" target="_blank">
               <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group/card hover:border-[#0c78e5]">
-                <h1 className="text-white font-bold text-lg lg:text-xl xl:text-2xl mb-3 group-hover/card:text-[#0c78e5]/90 transition duration-300 transform">
+                <h1 className="text-white font-bold text-lg lg:text-xl xl:text-2xl mb-3 group-hover/card:text-[#0c78e5]/90 transition duration-300 transform flex items-center justify-between">
                   Contact Card
+                  <span>
+                    <BiLinkExternal />
+                  </span>
                 </h1>
 
                 <LazyLoadImage
@@ -31,8 +35,10 @@ const Myproject = () => {
                   effect="blur"
                   alt="contact-card"
                 />
+
+                {/* Tech */}
                 <div className="flex items-center gap-2 transition duration-300 mt-4">
-                  <div className="relative bg-neutral-700 rounded-full p-1 group/icon">
+                  <div className="relative bg-neutral-800 rounded-full p-1.5 border border-neutral-600/50 group/icon">
                     <img
                       src="/image/logos/react_dark.svg"
                       loading="lazy"
@@ -45,7 +51,7 @@ const Myproject = () => {
                       <div className=" absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45  border-b"></div>
                     </div>
                   </div>
-                  <div className="relative bg-neutral-700 rounded-full p-1 group/icon">
+                  <div className="relative bg-neutral-800 rounded-full p-1.5 border border-neutral-600/50 group/icon">
                     <img
                       src="/image/logos/tailwindcss.svg"
                       loading="lazy"
@@ -59,14 +65,34 @@ const Myproject = () => {
                     </div>
                   </div>
                 </div>
+
+                {/* Credit */}
+                <div className="flex items-center gap-2 text-white/80 mt-4 pt-4 px-2 py-3 bg-neutral-900/50 rounded-lg border border-neutral-700/50">
+                  <span className="text-sm font-medium">Credit :</span>
+                  <div
+                    onClick={() =>
+                      window.open(
+                        "https://web-portfolio-eight-red.vercel.app/",
+                        "_blank"
+                      )
+                    }
+                    className="text-sm text-blue-300 hover:text-blue-400 hover:underline transition duration-300 flex items-center gap-1"
+                  >
+                    <span>Me</span>
+                    <BiLinkExternal />
+                  </div>
+                </div>
               </div>
             </a>
 
             {/* Bottle Refund */}
             <a href="https://www.bottlerefund.net/" target="_blank">
               <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group/card hover:border-[#0c78e5]">
-                <h1 className="text-white font-bold text-lg lg:text-xl xl:text-2xl mb-3 group-hover/card:text-[#0c78e5]/90 transition duration-300 transform">
+                <h1 className="text-white font-bold text-lg lg:text-xl xl:text-2xl mb-3 group-hover/card:text-[#0c78e5]/90 transition duration-300 transform flex items-center justify-between">
                   Bottle Refund
+                  <span>
+                    <BiLinkExternal />
+                  </span>
                 </h1>
 
                 <LazyLoadImage
@@ -75,8 +101,10 @@ const Myproject = () => {
                   effect="blur"
                   alt="contact-card"
                 />
+
+                {/* Tech */}
                 <div className="flex items-center gap-2 transition duration-300 mt-4">
-                  <div className="relative bg-neutral-700 rounded-full p-1 group/icon">
+                  <div className="relative bg-neutral-800 rounded-full p-1.5 border border-neutral-600/50 group/icon">
                     <img
                       src="/image/logos/nuxt.svg"
                       loading="lazy"
@@ -89,7 +117,7 @@ const Myproject = () => {
                       <div className=" absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45 border-b"></div>
                     </div>
                   </div>
-                  <div className="relative bg-neutral-700 rounded-full p-1 group/icon">
+                  <div className="relative bg-neutral-800 rounded-full p-1.5 border border-neutral-600/50 group/icon">
                     <img
                       src="/image/logos/tailwindcss.svg"
                       loading="lazy"
@@ -103,14 +131,34 @@ const Myproject = () => {
                     </div>
                   </div>
                 </div>
+
+                {/* Credit */}
+                <div className="flex items-center gap-2 text-white/80 mt-4 pt-4 px-2 py-3 bg-neutral-900/50 rounded-lg border border-neutral-700/50">
+                  <span className="text-sm font-medium">Credit :</span>
+                  <div
+                    onClick={() =>
+                      window.open(
+                        "https://web-portfolio-eight-red.vercel.app/",
+                        "_blank"
+                      )
+                    }
+                    className="text-sm text-blue-300 hover:text-blue-400 hover:underline transition duration-300 flex items-center gap-1"
+                  >
+                    <span>Me</span>
+                    <BiLinkExternal />
+                  </div>
+                </div>
               </div>
             </a>
 
             {/* Tharasiri */}
             <a href="https://web-tharasiri.vercel.app/" target="_blank">
               <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group/card hover:border-[#0c78e5]">
-                <h1 className="text-white font-bold text-lg lg:text-xl xl:text-2xl mb-3 group-hover/card:text-[#0c78e5]/90 transition duration-300 transform">
+                <h1 className="text-white font-bold text-lg lg:text-xl xl:text-2xl mb-3 group-hover/card:text-[#0c78e5]/90 transition duration-300 transform flex items-center justify-between">
                   Tharasiri (Web Clone)
+                  <span>
+                    <BiLinkExternal />
+                  </span>
                 </h1>
 
                 <LazyLoadImage
@@ -119,8 +167,10 @@ const Myproject = () => {
                   effect="blur"
                   alt="contact-card"
                 />
+
+                {/* Tech */}
                 <div className="flex items-center gap-2 transition duration-300 mt-4">
-                  <div className="relative bg-neutral-700 rounded-full p-1 group/icon">
+                  <div className="relative bg-neutral-800 rounded-full p-1.5 border border-neutral-600/50 group/icon">
                     <img
                       src="/image/logos/react_dark.svg"
                       loading="lazy"
@@ -133,7 +183,7 @@ const Myproject = () => {
                       <div className=" absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45 border-b"></div>
                     </div>
                   </div>
-                  <div className="relative bg-neutral-700 rounded-full p-1 group/icon">
+                  <div className="relative bg-neutral-800 rounded-full p-1.5 border border-neutral-600/50 group/icon">
                     <img
                       src="/image/logos/tailwindcss.svg"
                       loading="lazy"
@@ -147,14 +197,31 @@ const Myproject = () => {
                     </div>
                   </div>
                 </div>
+
+                {/* Credit */}
+                <div className="flex items-center gap-2 text-white/80 mt-4 pt-4 px-2 py-3 bg-neutral-900/50 rounded-lg border border-neutral-700/50">
+                  <span className="text-sm font-medium">Credit :</span>
+                  <div
+                    className="text-sm text-blue-300 hover:text-blue-400 hover:underline transition duration-300 flex items-center gap-1"
+                    onClick={() =>
+                      window.open("https://www.tharasiri.com/", "_blank")
+                    }
+                  >
+                    <span>Tharasiri</span>
+                    <BiLinkExternal />
+                  </div>
+                </div>
               </div>
             </a>
 
             {/* Web ADDA */}
             <a href="https://web-adda.vercel.app/" target="_blank">
               <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group/card hover:border-[#0c78e5]">
-                <h1 className="text-white font-bold text-lg lg:text-xl xl:text-2xl mb-3 group-hover/card:text-[#0c78e5]/90 transition duration-300 transform">
+                <h1 className="text-white font-bold text-lg lg:text-xl xl:text-2xl mb-3 group-hover/card:text-[#0c78e5]/90 transition duration-300 transform flex items-center justify-between">
                   Web ADDA (Early Access)
+                  <span>
+                    <BiLinkExternal />
+                  </span>
                 </h1>
 
                 <LazyLoadImage
@@ -163,8 +230,10 @@ const Myproject = () => {
                   effect="blur"
                   alt="web-adda"
                 />
+
+                {/* Tech */}
                 <div className="flex items-center gap-2 transition duration-300 mt-4">
-                  <div className="relative bg-neutral-700 rounded-full p-1 group/icon">
+                  <div className="relative bg-neutral-800 rounded-full p-1.5 border border-neutral-600/50 group/icon">
                     <img
                       src="/image/logos/vue.svg"
                       loading="lazy"
@@ -177,7 +246,7 @@ const Myproject = () => {
                       <div className="absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45  border-b"></div>
                     </div>
                   </div>
-                  <div className="relative bg-neutral-700 rounded-full p-1 group/icon">
+                  <div className="relative bg-neutral-800 rounded-full p-1.5 border border-neutral-600/50 group/icon">
                     <img
                       src="/image/logos/tailwindcss.svg"
                       loading="lazy"
@@ -189,6 +258,20 @@ const Myproject = () => {
                       Tailwind CSS
                       <div className="absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45  border-b"></div>
                     </div>
+                  </div>
+                </div>
+
+                {/* Credit */}
+                <div className="flex items-center gap-2 text-white/80 mt-4 pt-4 px-2 py-3 bg-neutral-900/50 rounded-lg border border-neutral-700/50">
+                  <span className="text-sm font-medium">Credit :</span>
+                  <div
+                    onClick={() =>
+                      window.open("https://www.adda.co.th/", "_blank")
+                    }
+                    className="text-sm text-blue-300 hover:text-blue-400 hover:underline transition duration-300 flex items-center gap-1"
+                  >
+                    <span>ADDA</span>
+                    <BiLinkExternal />
                   </div>
                 </div>
               </div>
@@ -275,7 +358,7 @@ const Myproject = () => {
                   alt="contact-card"
                 />
                 <div className="flex items-center gap-2  mt-4">
-                  <div className="bg-neutral-700 rounded-full p-1">
+                  <div className="bg-neutral-800 border border-neutral-600/50 rounded-full p-1">
                     <img
                       src="/image/logos/react_dark.svg"
                       loading="lazy"
@@ -283,7 +366,7 @@ const Myproject = () => {
                       alt="logo"
                     />
                   </div>
-                  <div className="bg-neutral-700 rounded-full p-1">
+                  <div className="bg-neutral-800 border border-neutral-600/50 rounded-full p-1">
                     <img
                       src="/image/logos/tailwindcss.svg"
                       loading="lazy"
@@ -308,7 +391,7 @@ const Myproject = () => {
                   alt="contact-card"
                 />
                 <div className="flex items-center gap-2  mt-4">
-                  <div className="bg-neutral-700 rounded-full p-1">
+                  <div className="bg-neutral-800 border border-neutral-600/50 rounded-full p-1">
                     <img
                       src="/image/logos/nuxt.svg"
                       loading="lazy"
@@ -316,7 +399,7 @@ const Myproject = () => {
                       alt="logo"
                     />
                   </div>
-                  <div className="bg-neutral-700 rounded-full p-1">
+                  <div className="bg-neutral-800 border border-neutral-600/50 rounded-full p-1">
                     <img
                       src="/image/logos/tailwindcss.svg"
                       loading="lazy"
@@ -341,7 +424,7 @@ const Myproject = () => {
                   alt="contact-card"
                 />
                 <div className="flex items-center gap-2  mt-4">
-                  <div className="bg-neutral-700 rounded-full p-1">
+                  <div className="bg-neutral-800 border border-neutral-600/50 rounded-full p-1">
                     <img
                       src="/image/logos/react_dark.svg"
                       loading="lazy"
@@ -349,7 +432,7 @@ const Myproject = () => {
                       alt="logo"
                     />
                   </div>
-                  <div className="bg-neutral-700 rounded-full p-1">
+                  <div className="bg-neutral-800 border border-neutral-600/50 rounded-full p-1">
                     <img
                       src="/image/logos/tailwindcss.svg"
                       loading="lazy"
@@ -373,8 +456,9 @@ const Myproject = () => {
                   effect="blur"
                   alt="web-adda"
                 />
+
                 <div className="flex items-center gap-2  mt-4">
-                  <div className="bg-neutral-700 rounded-full p-1">
+                  <div className="bg-neutral-800 border border-neutral-600/50 rounded-full p-1">
                     <img
                       src="/image/logos/vue.svg"
                       loading="lazy"
@@ -382,7 +466,7 @@ const Myproject = () => {
                       alt="logo"
                     />
                   </div>
-                  <div className="bg-neutral-700 rounded-full p-1">
+                  <div className="bg-neutral-800 border border-neutral-600/50 rounded-full p-1">
                     <img
                       src="/image/logos/tailwindcss.svg"
                       loading="lazy"

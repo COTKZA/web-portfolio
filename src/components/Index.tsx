@@ -23,7 +23,7 @@ const Index = () => {
       />
       <Snowfall color="#82C3D9" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="relative z-10 min-h-screen flex flex-col lg:flex-row items-center lg:justify-between pb-20 sm:pb-20 md:pb-0">
+        <div className="relative z-10 min-h-screen flex flex-col lg:flex-row items-center lg:justify-between pt-20 pb-20">
           {/* Profile Image */}
           <div className="flex-shrink-0 w-auto h-auto sm:w-86 sm:h-86 xl:w-130 xl:h-130 mt-18 lg:mt-0">
             <LazyLoadImage
