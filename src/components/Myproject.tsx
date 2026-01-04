@@ -20,8 +20,8 @@ const Myproject = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-8 mt-10 ">
             {/* Contact Card */}
             <a href="https://contact-card-mu.vercel.app/" target="_blank">
-              <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group hover:border-[#0c78e5]">
-                <h1 className="text-white font-bold text-lg lg:text-xl xl:text-2xl mb-3 group-hover:text-[#0c78e5]/90 transition duration-300 transform">
+              <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group/card hover:border-[#0c78e5]">
+                <h1 className="text-white font-bold text-lg lg:text-xl xl:text-2xl mb-3 group-hover/card:text-[#0c78e5]/90 transition duration-300 transform">
                   Contact Card
                 </h1>
 
@@ -32,21 +32,33 @@ const Myproject = () => {
                   alt="contact-card"
                 />
                 <div className="flex items-center gap-2 transition duration-300 mt-4">
-                  <div className="bg-neutral-700 rounded-full p-1">
+                  <div className="relative bg-neutral-700 rounded-full p-1 group/icon">
                     <img
                       src="/image/logos/react_dark.svg"
                       loading="lazy"
                       className="w-8 h-8 sm:w-10 sm:h-10 p-1"
                       alt="logo"
                     />
+
+                    <div className="absolute top-[-40px] -translate-x-2 bg-white text-black text-sm px-3 py-1 rounded-md opacity-0 group-hover/icon:opacity-100 transition duration-300 whitespace-nowrap">
+                      React
+                      <div className=" absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45">
+                      </div>
+                    </div>
                   </div>
-                  <div className="bg-neutral-700 rounded-full p-1">
+                  <div className="relative bg-neutral-700 rounded-full p-1 group/icon">
                     <img
                       src="/image/logos/tailwindcss.svg"
                       loading="lazy"
                       className="w-8 h-8 sm:w-10 sm:h-10 p-1"
                       alt="logo"
                     />
+
+                    <div className="absolute top-[-40px] -translate-x-8 bg-white text-black text-sm px-3 py-1 rounded-md opacity-0 group-hover/icon:opacity-100 transition duration-300 whitespace-nowrap">
+                      Tailwind CSS
+                      <div className="absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45">
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -54,8 +66,8 @@ const Myproject = () => {
 
             {/* Bottle Refund */}
             <a href="https://www.bottlerefund.net/" target="_blank">
-              <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group hover:border-[#0c78e5]">
-                <h1 className="text-white font-bold text-lg lg:text-xl xl:text-2xl mb-3 group-hover:text-[#0c78e5]/90 transition duration-300 transform">
+              <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group/card hover:border-[#0c78e5]">
+                <h1 className="text-white font-bold text-lg lg:text-xl xl:text-2xl mb-3 group-hover/card:text-[#0c78e5]/90 transition duration-300 transform">
                   Bottle Refund
                 </h1>
 
@@ -66,21 +78,33 @@ const Myproject = () => {
                   alt="contact-card"
                 />
                 <div className="flex items-center gap-2 transition duration-300 mt-4">
-                  <div className="bg-neutral-700 rounded-full p-1">
+                  <div className="relative bg-neutral-700 rounded-full p-1 group/icon">
                     <img
                       src="/image/logos/nuxt.svg"
                       loading="lazy"
                       className="w-8 h-8 sm:w-10 sm:h-10 p-1"
                       alt="logo"
                     />
+
+                    <div className="absolute top-[-40px] -translate-x-2 bg-white text-black text-sm px-3 py-1 rounded-md opacity-0 group-hover/icon:opacity-100 transition duration-300 whitespace-nowrap">
+                      Nuxt
+                      <div className=" absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45">
+                      </div>
+                    </div>
                   </div>
-                  <div className="bg-neutral-700 rounded-full p-1">
+                  <div className="relative bg-neutral-700 rounded-full p-1 group/icon">
                     <img
                       src="/image/logos/tailwindcss.svg"
                       loading="lazy"
                       className="w-8 h-8 sm:w-10 sm:h-10 p-1"
                       alt="logo"
                     />
+
+                    <div className="absolute top-[-40px] -translate-x-8 bg-white text-black text-sm px-3 py-1 rounded-md opacity-0 group-hover/icon:opacity-100 transition duration-300 whitespace-nowrap">
+                      Tailwind CSS
+                      <div className="absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45">
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -88,8 +112,8 @@ const Myproject = () => {
 
             {/* Tharasiri */}
             <a href="https://web-tharasiri.vercel.app/" target="_blank">
-              <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group hover:border-[#0c78e5]">
-                <h1 className="text-white font-bold text-lg lg:text-xl xl:text-2xl mb-3 group-hover:text-[#0c78e5]/90 transition duration-300 transform">
+              <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group/card hover:border-[#0c78e5]">
+                <h1 className="text-white font-bold text-lg lg:text-xl xl:text-2xl mb-3 group-hover/card:text-[#0c78e5]/90 transition duration-300 transform">
                   Tharasiri (Web Clone)
                 </h1>
 
@@ -99,22 +123,34 @@ const Myproject = () => {
                   effect="blur"
                   alt="contact-card"
                 />
-                <div className="flex items-center gap-2 transition duration-300 mt-4">
-                  <div className="bg-neutral-700 rounded-full p-1">
+               <div className="flex items-center gap-2 transition duration-300 mt-4">
+                  <div className="relative bg-neutral-700 rounded-full p-1 group/icon">
                     <img
                       src="/image/logos/react_dark.svg"
                       loading="lazy"
                       className="w-8 h-8 sm:w-10 sm:h-10 p-1"
                       alt="logo"
                     />
+
+                    <div className="absolute top-[-40px] -translate-x-2 bg-white text-black text-sm px-3 py-1 rounded-md opacity-0 group-hover/icon:opacity-100 transition duration-300 whitespace-nowrap">
+                      React
+                      <div className=" absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45">
+                      </div>
+                    </div>
                   </div>
-                  <div className="bg-neutral-700 rounded-full p-1">
+                  <div className="relative bg-neutral-700 rounded-full p-1 group/icon">
                     <img
                       src="/image/logos/tailwindcss.svg"
                       loading="lazy"
                       className="w-8 h-8 sm:w-10 sm:h-10 p-1"
                       alt="logo"
                     />
+
+                    <div className="absolute top-[-40px] -translate-x-8 bg-white text-black text-sm px-3 py-1 rounded-md opacity-0 group-hover/icon:opacity-100 transition duration-300 whitespace-nowrap">
+                      Tailwind CSS
+                      <div className="absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45">
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
