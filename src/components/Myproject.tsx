@@ -42,8 +42,7 @@ const Myproject = () => {
 
                     <div className="absolute top-[-40px] -translate-x-2 bg-white text-black text-sm px-3 py-1 rounded-md opacity-0 group-hover/icon:opacity-100 transition duration-300 whitespace-nowrap border">
                       React
-                      <div className=" absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45  border-b">
-                      </div>
+                      <div className=" absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45  border-b"></div>
                     </div>
                   </div>
                   <div className="relative bg-neutral-700 rounded-full p-1 group/icon">
@@ -56,8 +55,7 @@ const Myproject = () => {
 
                     <div className="absolute top-[-40px] -translate-x-8 bg-white text-black text-sm px-3 py-1 rounded-md opacity-0 group-hover/icon:opacity-100 transition duration-300 whitespace-nowrap border">
                       Tailwind CSS
-                      <div className="absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45  border-b">
-                      </div>
+                      <div className="absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45  border-b"></div>
                     </div>
                   </div>
                 </div>
@@ -88,8 +86,7 @@ const Myproject = () => {
 
                     <div className="absolute top-[-40px] -translate-x-2 bg-white text-black text-sm px-3 py-1 rounded-md opacity-0 group-hover/icon:opacity-100 transition duration-300 whitespace-nowrap border">
                       Nuxt
-                      <div className=" absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45 border-b">
-                      </div>
+                      <div className=" absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45 border-b"></div>
                     </div>
                   </div>
                   <div className="relative bg-neutral-700 rounded-full p-1 group/icon">
@@ -102,8 +99,7 @@ const Myproject = () => {
 
                     <div className="absolute top-[-40px] -translate-x-8 bg-white text-black text-sm px-3 py-1 rounded-md opacity-0 group-hover/icon:opacity-100 transition duration-300 whitespace-nowrap border">
                       Tailwind CSS
-                      <div className="absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45 border-b">
-                      </div>
+                      <div className="absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45 border-b"></div>
                     </div>
                   </div>
                 </div>
@@ -123,7 +119,7 @@ const Myproject = () => {
                   effect="blur"
                   alt="contact-card"
                 />
-               <div className="flex items-center gap-2 transition duration-300 mt-4">
+                <div className="flex items-center gap-2 transition duration-300 mt-4">
                   <div className="relative bg-neutral-700 rounded-full p-1 group/icon">
                     <img
                       src="/image/logos/react_dark.svg"
@@ -134,8 +130,7 @@ const Myproject = () => {
 
                     <div className="absolute top-[-40px] -translate-x-2 bg-white text-black text-sm px-3 py-1 rounded-md opacity-0 group-hover/icon:opacity-100 transition duration-300 whitespace-nowrap border">
                       React
-                      <div className=" absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45 border-b">
-                      </div>
+                      <div className=" absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45 border-b"></div>
                     </div>
                   </div>
                   <div className="relative bg-neutral-700 rounded-full p-1 group/icon">
@@ -148,14 +143,14 @@ const Myproject = () => {
 
                     <div className="absolute top-[-40px] -translate-x-8 bg-white text-black text-sm px-3 py-1 rounded-md opacity-0 group-hover/icon:opacity-100 transition duration-300 whitespace-nowrap border">
                       Tailwind CSS
-                      <div className="absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45 border-b">
-                      </div>
+                      <div className="absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45 border-b"></div>
                     </div>
                   </div>
                 </div>
               </div>
             </a>
 
+            {/* Web ADDA */}
             <a href="https://web-adda.vercel.app/" target="_blank">
               <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group/card hover:border-[#0c78e5]">
                 <h1 className="text-white font-bold text-lg lg:text-xl xl:text-2xl mb-3 group-hover/card:text-[#0c78e5]/90 transition duration-300 transform">
@@ -179,8 +174,7 @@ const Myproject = () => {
 
                     <div className="absolute top-[-40px] -translate-x-2 bg-white text-black text-sm px-3 py-1 rounded-md opacity-0 group-hover/icon:opacity-100 transition duration-300 whitespace-nowrap border">
                       Vue
-                      <div className="absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45  border-b">
-                      </div>
+                      <div className="absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45  border-b"></div>
                     </div>
                   </div>
                   <div className="relative bg-neutral-700 rounded-full p-1 group/icon">
@@ -193,8 +187,7 @@ const Myproject = () => {
 
                     <div className="absolute top-[-40px] -translate-x-8 bg-white text-black text-sm px-3 py-1 rounded-md opacity-0 group-hover/icon:opacity-100 transition duration-300 whitespace-nowrap border">
                       Tailwind CSS
-                      <div className="absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45  border-b">
-                      </div>
+                      <div className="absolute left-1/2 -bottom-1 -translate-x-1/2 w-2 h-2 bg-white rotate-45  border-b"></div>
                     </div>
                   </div>
                 </div>
@@ -351,6 +344,39 @@ const Myproject = () => {
                   <div className="bg-neutral-700 rounded-full p-1">
                     <img
                       src="/image/logos/react_dark.svg"
+                      loading="lazy"
+                      className="w-8 h-8 sm:w-10 sm:h-10 p-1"
+                      alt="logo"
+                    />
+                  </div>
+                  <div className="bg-neutral-700 rounded-full p-1">
+                    <img
+                      src="/image/logos/tailwindcss.svg"
+                      loading="lazy"
+                      className="w-8 h-8 sm:w-10 sm:h-10 p-1"
+                      alt="logo"
+                    />
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            {/* Web ADDA */}
+            <a href="https://web-adda.vercel.app/" target="_blank">
+              <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group hover:border-[#0c78e5]">
+                <h1 className="text-white font-bold text-lg lg:text-xl xl:text-2xl mb-3 group-hover:text-[#0c78e5]/90 transition duration-300 transform">
+                  Web ADDA (Early Access)
+                </h1>
+                <LazyLoadImage
+                  src="/image/myproject/web-adda.png"
+                  className="w-full rounded-md"
+                  effect="blur"
+                  alt="web-adda"
+                />
+                <div className="flex items-center gap-2  mt-4">
+                  <div className="bg-neutral-700 rounded-full p-1">
+                    <img
+                      src="/image/logos/vue.svg"
                       loading="lazy"
                       className="w-8 h-8 sm:w-10 sm:h-10 p-1"
                       alt="logo"
