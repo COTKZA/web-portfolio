@@ -215,7 +215,7 @@ const Myproject = () => {
             </a>
 
             {/* Web ADDA */}
-            <a href="https://web-adda.vercel.app/" target="_blank">
+            {/* <a href="https://web-adda.vercel.app/" target="_blank">
               <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group/card hover:border-[#0c78e5]">
                 <h1 className="text-white font-bold text-lg lg:text-xl xl:text-2xl mb-3 group-hover/card:text-[#0c78e5]/90 transition duration-300 transform flex items-center justify-between">
                   Web ADDA (Early Access)
@@ -231,7 +231,6 @@ const Myproject = () => {
                   alt="web-adda"
                 />
 
-                {/* Tech */}
                 <div className="flex items-center gap-2 transition duration-300 mt-4">
                   <div className="relative bg-neutral-800 rounded-full p-1.5 border border-neutral-600/50 group/icon">
                     <img
@@ -261,7 +260,6 @@ const Myproject = () => {
                   </div>
                 </div>
 
-                {/* Credit */}
                 <div className="flex items-center gap-2 text-white/80 mt-4 pt-4 px-2 py-3 bg-neutral-900/50 rounded-lg border border-neutral-700/50">
                   <span className="text-sm font-medium">Credit :</span>
                   <div
@@ -275,7 +273,7 @@ const Myproject = () => {
                   </div>
                 </div>
               </div>
-            </a>
+            </a> */}
 
             {/* <a href="http://jirasak.duckdns.org:8087/" target="_blank">
               <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group hover:border-[#0c78e5]">
@@ -445,7 +443,7 @@ const Myproject = () => {
             </a>
 
             {/* Web ADDA */}
-            <a href="https://web-adda.vercel.app/" target="_blank">
+            {/* <a href="https://web-adda.vercel.app/" target="_blank">
               <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group hover:border-[#0c78e5]">
                 <h1 className="text-white font-bold text-lg lg:text-xl xl:text-2xl mb-3 group-hover:text-[#0c78e5]/90 transition duration-300 transform">
                   Web ADDA (Early Access)
@@ -476,7 +474,7 @@ const Myproject = () => {
                   </div>
                 </div>
               </div>
-            </a>
+            </a> */}
 
             {/* <a href="http://jirasak.duckdns.org:8087/" target="_blank">
               <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group hover:border-[#0c78e5]">
