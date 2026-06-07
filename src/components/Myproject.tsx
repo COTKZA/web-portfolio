@@ -71,7 +71,7 @@ const Myproject = () => {
                   <div
                     onClick={() =>
                       window.open(
-                        "https://web-portfolio-eight-red.vercel.app/",
+                        "https://jirasak.com/",
                         "_blank"
                       )
                     }
@@ -137,7 +137,7 @@ const Myproject = () => {
                   <div
                     onClick={() =>
                       window.open(
-                        "https://web-portfolio-eight-red.vercel.app/",
+                        "https://jirasak.com/",
                         "_blank",
                       )
                     }
