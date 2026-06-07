@@ -1,4 +1,4 @@
-import Container from "../components/layouts/Container";
+import Container from "../layouts/Container";
 import Index from "../components/Index";
 import SkillsTools from "../components/SkillsTools";
 import Myproject from "../components/Myproject";
