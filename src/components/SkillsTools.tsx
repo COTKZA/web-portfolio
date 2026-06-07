@@ -121,11 +121,10 @@ const SkillsTools = () => {
       className="relative bg-linear-to-b from-zinc-800 via-neutral-800 to-neutral-900"
     >
       <img
-        src="/image/blob-scene-haikei (1).svg"
+        src="/image/blob-scene-haikei.svg"
         className="absolute inset-0 w-full h-full object-cover opacity-80"
         alt="background blob"
       />
-      <div className="text-white p-4 bg-blue-500 rounded flex"></div>
       <div className="min-h-screen max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center">
         <div className="mb-10 flex items-start z-10">
           <h2 className="text-white  font-extrabold text-4xl md:text-5xl">
