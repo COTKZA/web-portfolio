@@ -21,45 +21,45 @@ const Contacts = () => {
   return (
     <div
       id="contact"
-      className="relative bg-gradient-to-b from-zinc-800 via-neutral-800 to-neutral-900"
+      className="relative bg-linear-to-b from-zinc-800 via-neutral-800 to-neutral-900"
     >
       <img
         src="/image/stacked-waves-haikei.svg"
-        className="absolute inset-0 w-full h-full object-cover  opacity-80"
+        className="absolute inset-0 h-full w-full object-cover opacity-80"
         alt="background blob"
       />
-      <div className="relative min-h-screen max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center  pt-20 pb-20">
-        <h2 className="text-white font-extrabold text-4xl md:text-5xl z-10 ">
+      <div className="relative mx-auto flex min-h-screen max-w-7xl flex-col justify-center px-4 pt-20 pb-20 sm:px-6 lg:px-8">
+        <h2 className="z-10 text-4xl font-extrabold text-white md:text-5xl">
           ติดต่อ
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-3 mt-10">
+        <div className="mt-10 grid grid-cols-1 gap-3 sm:grid-cols-3 sm:gap-3">
           <a href="https://github.com/COTKZA" target="_blank">
-            <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group hover:border-[#0c78e5]">
-              <div className="flex justify-center items-center">
-                <BsGithub className="w-30 h-30 transition duration-500 transform group-hover:text-blue-500 " />
+            <div className="group transform rounded-lg border border-neutral-500/40 bg-neutral-800/70 p-4 shadow-lg backdrop-blur-lg transition duration-500 hover:border-[#0c78e5]">
+              <div className="flex items-center justify-center">
+                <BsGithub className="h-30 w-30 transform transition duration-500 group-hover:text-blue-500" />
               </div>
-              <h1 className="text-white text-center text-xl md:text-sm lg:text-xl mt-3">
+              <h1 className="mt-3 text-center text-xl text-white md:text-sm lg:text-xl">
                 Jirasak Suktakua
               </h1>
             </div>
           </a>
 
           <a href="https://www.facebook.com/COTKZA" target="_blank">
-            <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group hover:border-[#0c78e5]">
-              <div className="flex justify-center items-center">
-                <BsFacebook className="w-30 h-30 transition duration-500 transform group-hover:text-blue-500 " />
+            <div className="group transform rounded-lg border border-neutral-500/40 bg-neutral-800/70 p-4 shadow-lg backdrop-blur-lg transition duration-500 hover:border-[#0c78e5]">
+              <div className="flex items-center justify-center">
+                <BsFacebook className="h-30 w-30 transform transition duration-500 group-hover:text-blue-500" />
               </div>
-              <h1 className="text-white text-center text-xl md:text-sm lg:text-xl mt-3">
+              <h1 className="mt-3 text-center text-xl text-white md:text-sm lg:text-xl">
                 Jirasak Suktakua
               </h1>
             </div>
           </a>
 
-          <div className="border border-neutral-500/40 bg-neutral-800/70 backdrop-blur-lg rounded-lg p-4 shadow-lg transition duration-500 transform group hover:border-[#0c78e5]">
-            <div className="flex justify-center items-center">
-              <BiLogoGmail className="w-30 h-30 transition duration-500 transform group-hover:text-blue-500 " />
+          <div className="group transform rounded-lg border border-neutral-500/40 bg-neutral-800/70 p-4 shadow-lg backdrop-blur-lg transition duration-500 hover:border-[#0c78e5]">
+            <div className="flex items-center justify-center">
+              <BiLogoGmail className="h-30 w-30 transform transition duration-500 group-hover:text-blue-500" />
             </div>
-            <h1 className="text-white text-center text-xl md:text-sm lg:text-xl mt-3 flex items-center justify-center gap-2">
+            <h1 className="mt-3 flex items-center justify-center gap-2 text-center text-xl text-white md:text-sm lg:text-xl">
               {" "}
               {email}
               {copied ? (
@@ -67,7 +67,7 @@ const Contacts = () => {
               ) : (
                 <FaRegCopy
                   onClick={handleCopy}
-                  className="text-white text-md cursor-pointer hover:text-blue-400 transition"
+                  className="text-md cursor-pointer text-white transition hover:text-blue-400"
                 />
               )}
             </h1>

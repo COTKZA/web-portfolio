@@ -118,13 +118,14 @@ const SkillsTools = () => {
   return (
     <div
       id="skill"
-      className="relative bg-gradient-to-b from-zinc-800 via-neutral-800 to-neutral-900"
+      className="relative bg-linear-to-b from-zinc-800 via-neutral-800 to-neutral-900"
     >
       <img
         src="/image/blob-scene-haikei (1).svg"
         className="absolute inset-0 w-full h-full object-cover opacity-80"
         alt="background blob"
       />
+      <div className="text-white p-4 bg-blue-500 rounded flex"></div>
       <div className="min-h-screen max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center">
         <div className="mb-10 flex items-start z-10">
           <h2 className="text-white  font-extrabold text-4xl md:text-5xl">
@@ -133,7 +134,7 @@ const SkillsTools = () => {
         </div>
         {/* Front Back */}
         <div className="relative w-full max-w-6xl overflow-hidden rounded-2xl shadow-2xl border border-zinc-800 p-1">
-          <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black opacity-20 pointer-events-none z-10"></div>
+          <div className="absolute inset-0 bg-linear-to-r from-black via-transparent to-black opacity-20 pointer-events-none z-10"></div>
           <LogoLoop
             logos={frontandback}
             speed={120}
@@ -148,7 +149,7 @@ const SkillsTools = () => {
 
         {/* CSS */}
         <div className="relative w-full max-w-6xl overflow-hidden rounded-2xl shadow-2xl border border-zinc-800 p-1 mt-10">
-          <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black opacity-20 pointer-events-none z-10"></div>
+          <div className="absolute inset-0 bg-linear-to-r from-black via-transparent to-black opacity-20 pointer-events-none z-10"></div>
           <LogoLoop
             logos={css}
             speed={120}
@@ -163,7 +164,7 @@ const SkillsTools = () => {
 
         {/* Tools */}
         <div className="relative w-full max-w-6xl overflow-hidden rounded-2xl shadow-2xl border border-zinc-800 p-1 mt-10">
-          <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black opacity-20 pointer-events-none z-10"></div>
+          <div className="absolute inset-0 bg-linear-to-r from-black via-transparent to-black opacity-20 pointer-events-none z-10"></div>
           <LogoLoop
             logos={tools}
             speed={120}

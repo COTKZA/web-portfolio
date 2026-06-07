@@ -14,28 +14,28 @@ const Index = () => {
   return (
     <div
       id="home"
-      className="relative bg-gradient-to-b from-zinc-800 via-neutral-800 to-neutral-900 pt-10 sm:pt-0"
+      className="relative bg-linear-to-b from-zinc-800 via-neutral-800 to-neutral-900 pt-10 sm:pt-0"
     >
       <img
         src="/image/stacked-waves-haikei.svg"
-        className="absolute inset-0 w-full h-full object-cover  opacity-80"
+        className="absolute inset-0 h-full w-full object-cover opacity-80"
         alt="background blob"
       />
       <Snowfall color="#82C3D9" />
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="relative z-10 min-h-screen flex flex-col lg:flex-row items-center lg:justify-between pt-20 pb-20">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="relative z-10 flex min-h-screen flex-col items-center pt-20 pb-20 lg:flex-row lg:justify-between">
           {/* Profile Image */}
-          <div className="flex-shrink-0 w-auto h-auto sm:w-86 sm:h-86 xl:w-130 xl:h-130 mt-18 lg:mt-0">
+          <div className="mt-18 h-auto w-auto shrink-0 sm:h-86 sm:w-86 lg:mt-0 xl:h-130 xl:w-130">
             <LazyLoadImage
               src="/image/profile/profile.jpg"
-              className="w-full h-full border-4 border-white/80 rounded-full object-cover"
+              className="h-full w-full rounded-full border-4 border-white/80 object-cover"
               effect="blur"
               alt="profile"
             />
           </div>
           {/* Text Section */}
           <div className="mt-8 lg:mt-0">
-            <h2 className="text-white font-semibold text-4xl md:text-6xl mb-4">
+            <h2 className="mb-4 text-4xl font-semibold text-white md:text-6xl">
               <SplitText
                 text="สวัสดี ผม"
                 delay={100}
@@ -49,7 +49,7 @@ const Index = () => {
                 textAlign="center"
                 onLetterAnimationComplete={handleAnimationComplete}
               />
-              <span className="ml-3 text-[#0c78e5] font-bold">
+              <span className="ml-3 font-bold text-[#0c78e5]">
                 <SplitText
                   text="จิระศักดิ์"
                   delay={100}
@@ -65,7 +65,7 @@ const Index = () => {
                 />
               </span>
             </h2>
-            <span className="text-white text-3xl md:text-5xl font-bold drop-shadow-md">
+            <span className="text-3xl font-bold text-white drop-shadow-md md:text-5xl">
               <TextType
                 text={[
                   "Full Stack Developer",
@@ -79,16 +79,16 @@ const Index = () => {
                 textColors={["#0c78e5"]}
               />
             </span>
-            <p className="mt-6 text-white text-base md:text-lg max-w-lg leading-relaxed font-medium">
+            <p className="mt-6 max-w-lg text-base leading-relaxed font-medium text-white md:text-lg">
               ผมเป็น Full Stack Developer ที่ชื่นชอบการเรียนรู้สิ่งใหม่ ๆ
               และพัฒนาตัวเองอยู่เสมอ มีไอเดียและความคิดสร้างสรรค์ในการเขียนโค้ด
               ชอบแก้ปัญหาและสร้างฟีเจอร์ใหม่ ๆ ที่ใช้งานง่าย มีประสิทธิภาพ
               และตอบโจทย์ผู้ใช้งาน
             </p>
             <Link to="contact" smooth={true} duration={1000}>
-              <button className="px-10 py-2 mt-5 bg-[#0c78e5] text-white font-semibold rounded-lg transform transition-colors duration-500 hover:bg-[#3587eb] hover:shadow-blue-400 hover:shadow-xl/20 hover:scale-105 text-lg flex items-center gap-3 group cursor-pointer">
+              <button className="group mt-5 flex transform cursor-pointer items-center gap-3 rounded-lg bg-[#0c78e5] px-10 py-2 text-lg font-semibold text-white transition-colors duration-500 hover:scale-105 hover:bg-[#3587eb] hover:shadow-xl/20 hover:shadow-blue-400">
                 ติดต่อ{" "}
-                <FaAnglesRight className="text-xl group-hover:translate-x-1/2 transform transition-transform duration-500" />
+                <FaAnglesRight className="transform text-xl transition-transform duration-500 group-hover:translate-x-1/2" />
               </button>
             </Link>
           </div>

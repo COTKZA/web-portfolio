@@ -52,25 +52,25 @@ const Navigation = () => {
   return (
     <header className="bg-zinc-800">
       <nav
-        className={`w-full z-50 bg-background/80 bg-zinc-800/80 backdrop-blur-lg border-b border-zinc-700 transition-all duration-600 ${
+        className={`bg-background/80 z-50 w-full border-b border-zinc-700 bg-zinc-800/80 backdrop-blur-lg transition-all duration-600 ${
           fixed ? "fixed top-0 left-0" : "relative"
         }`}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center  h-20">
-            <h1 className="font-bold text-2xl sm:text-4xl text-white">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="flex h-20 items-center justify-between">
+            <h1 className="text-2xl font-bold text-white sm:text-4xl">
               Portfolio
             </h1>
 
             {/* Mobile SildeBar */}
-            <div className="block md:hidden ">
+            <div className="block md:hidden">
               <button onClick={() => setSidebar(!slidebar)}>
-                <FaBars className="text-white text-2xl" />
+                <FaBars className="text-2xl text-white" />
               </button>
             </div>
 
             {/* DeskTop Navbar */}
-            <div className="hidden md:flex space-x-8 text-white">
+            <div className="hidden space-x-8 text-white md:flex">
               {sections.map((section) => (
                 <Link
                   key={section.id}
@@ -79,7 +79,7 @@ const Navigation = () => {
                   duration={1000}
                   className={`cursor-pointer transition-colors ${
                     active === section.id
-                      ? "text-[#0c78e5] font-semibold"
+                      ? "font-semibold text-[#0c78e5]"
                       : "text-white"
                   }`}
                 >
@@ -92,7 +92,7 @@ const Navigation = () => {
       </nav>
 
       {slidebar && (
-        <div className="fixed top-20 right-0 left-0 bg-zinc-800/40 backdrop-blur-lg flex flex-col items-center py-6 space-y-4 z-40 md:hidden">
+        <div className="fixed top-20 right-0 left-0 z-40 flex flex-col items-center space-y-4 bg-zinc-800/40 py-6 backdrop-blur-lg md:hidden">
           {sections.map((section) => (
             <Link
               key={section.id}
@@ -102,7 +102,7 @@ const Navigation = () => {
               onClick={() => setSidebar(false)}
               className={`cursor-pointer transition-colors ${
                 active === section.id
-                  ? "text-[#0c78e5] font-semibold"
+                  ? "font-semibold text-[#0c78e5]"
                   : "text-white"
               }`}
             >

@@ -4,14 +4,14 @@ import Home from "../pages/Home";
 import ErrorPage from "../pages/ErrorPage";
 
 const routes = createBrowserRouter([
-    {
-        path: '/',
-        Component: Home,
-    },
-    {
-        path: '*',
-        Component: ErrorPage,
-    }
-])
+  {
+    path: "/",
+    Component: Home,
+  },
+  {
+    path: "*",
+    Component: ErrorPage,
+  },
+]);
 
-export default routes
+export default routes;
