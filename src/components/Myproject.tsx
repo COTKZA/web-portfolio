@@ -377,32 +377,65 @@ const Myproject = () => {
 
             {/* Bottle Refund */}
             <a href="https://www.bottlerefund.net/" target="_blank">
-              <div className="group transform rounded-lg border border-neutral-500/40 bg-neutral-800/70 p-4 shadow-lg backdrop-blur-lg transition duration-500 hover:border-[#0c78e5]">
-                <h1 className="mb-3 transform text-lg font-bold text-white transition duration-300 group-hover:text-[#0c78e5]/90 lg:text-xl xl:text-2xl">
+              <div className="group/card transform rounded-lg border border-neutral-500/40 bg-neutral-800/70 p-4 shadow-lg backdrop-blur-lg transition duration-500 hover:border-[#0c78e5]">
+                <h1 className="mb-3 flex transform items-center justify-between text-lg font-bold text-white transition duration-300 group-hover/card:text-[#0c78e5]/90 lg:text-xl xl:text-2xl">
                   Bottle Refund
+                  <span>
+                    <BiLinkExternal />
+                  </span>
                 </h1>
+
                 <LazyLoadImage
                   src="/image/myproject/bottle_refund.png"
-                  className="w-full rounded-md"
+                  className="w-full rounded-md transition duration-300"
                   effect="blur"
                   alt="contact-card"
                 />
-                <div className="mt-4 flex items-center gap-2">
-                  <div className="rounded-full border border-neutral-600/50 bg-neutral-800 p-1">
+
+                {/* Tech */}
+                <div className="mt-4 flex items-center gap-2 transition duration-300">
+                  <div className="group/icon relative rounded-full border border-neutral-600/50 bg-neutral-800 p-1.5">
                     <img
                       src="/image/logos/nuxt.svg"
                       loading="lazy"
                       className="h-8 w-8 p-1 sm:h-10 sm:w-10"
                       alt="logo"
                     />
+
+                    <div className="absolute -top-10 -translate-x-2 rounded-md border bg-white px-3 py-1 text-sm whitespace-nowrap text-black opacity-0 transition duration-300 group-hover/icon:opacity-100">
+                      Nuxt
+                      <div className="absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45 border-b bg-white"></div>
+                    </div>
                   </div>
-                  <div className="rounded-full border border-neutral-600/50 bg-neutral-800 p-1">
+                  <div className="group/icon relative rounded-full border border-neutral-600/50 bg-neutral-800 p-1.5">
                     <img
                       src="/image/logos/tailwindcss.svg"
                       loading="lazy"
                       className="h-8 w-8 p-1 sm:h-10 sm:w-10"
                       alt="logo"
                     />
+
+                    <div className="absolute -top-10 -translate-x-8 rounded-md border bg-white px-3 py-1 text-sm whitespace-nowrap text-black opacity-0 transition duration-300 group-hover/icon:opacity-100">
+                      Tailwind CSS
+                      <div className="absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45 border-b bg-white"></div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Credit */}
+                <div className="mt-4 flex items-center gap-2 rounded-lg border border-neutral-700/50 bg-neutral-900/50 px-2 py-3 pt-4 text-white/80">
+                  <span className="text-sm font-medium">Credit :</span>
+                  <div
+                    onClick={() =>
+                      window.open(
+                        "https://jirasak.com/",
+                        "_blank",
+                      )
+                    }
+                    className="flex items-center gap-1 text-sm text-blue-300 transition duration-300 hover:text-blue-400 hover:underline"
+                  >
+                    <span>Me</span>
+                    <BiLinkExternal />
                   </div>
                 </div>
               </div>
@@ -410,32 +443,62 @@ const Myproject = () => {
 
             {/* Tharasiri */}
             <a href="https://tharasiri.jirasak.com/" target="_blank">
-              <div className="group transform rounded-lg border border-neutral-500/40 bg-neutral-800/70 p-4 shadow-lg backdrop-blur-lg transition duration-500 hover:border-[#0c78e5]">
-                <h1 className="mb-3 transform text-lg font-bold text-white transition duration-300 group-hover:text-[#0c78e5]/90 lg:text-xl xl:text-2xl">
+              <div className="group/card transform rounded-lg border border-neutral-500/40 bg-neutral-800/70 p-4 shadow-lg backdrop-blur-lg transition duration-500 hover:border-[#0c78e5]">
+                <h1 className="mb-3 flex transform items-center justify-between text-lg font-bold text-white transition duration-300 group-hover/card:text-[#0c78e5]/90 lg:text-xl xl:text-2xl">
                   Tharasiri (Web Clone)
+                  <span>
+                    <BiLinkExternal />
+                  </span>
                 </h1>
+
                 <LazyLoadImage
                   src="/image/myproject/tharasiri.png"
-                  className="w-full rounded-md"
+                  className="w-full rounded-md transition duration-300"
                   effect="blur"
                   alt="contact-card"
                 />
-                <div className="mt-4 flex items-center gap-2">
-                  <div className="rounded-full border border-neutral-600/50 bg-neutral-800 p-1">
+
+                {/* Tech */}
+                <div className="mt-4 flex items-center gap-2 transition duration-300">
+                  <div className="group/icon relative rounded-full border border-neutral-600/50 bg-neutral-800 p-1.5">
                     <img
                       src="/image/logos/react_dark.svg"
                       loading="lazy"
                       className="h-8 w-8 p-1 sm:h-10 sm:w-10"
                       alt="logo"
                     />
+
+                    <div className="absolute -top-10 -translate-x-2 rounded-md border bg-white px-3 py-1 text-sm whitespace-nowrap text-black opacity-0 transition duration-300 group-hover/icon:opacity-100">
+                      React
+                      <div className="absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45 border-b bg-white"></div>
+                    </div>
                   </div>
-                  <div className="rounded-full border border-neutral-600/50 bg-neutral-800 p-1">
+                  <div className="group/icon relative rounded-full border border-neutral-600/50 bg-neutral-800 p-1.5">
                     <img
                       src="/image/logos/tailwindcss.svg"
                       loading="lazy"
                       className="h-8 w-8 p-1 sm:h-10 sm:w-10"
                       alt="logo"
                     />
+
+                    <div className="absolute -top-10 -translate-x-8 rounded-md border bg-white px-3 py-1 text-sm whitespace-nowrap text-black opacity-0 transition duration-300 group-hover/icon:opacity-100">
+                      Tailwind CSS
+                      <div className="absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45 border-b bg-white"></div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Credit */}
+                <div className="mt-4 flex items-center gap-2 rounded-lg border border-neutral-700/50 bg-neutral-900/50 px-2 py-3 pt-4 text-white/80">
+                  <span className="text-sm font-medium">Credit :</span>
+                  <div
+                    className="flex items-center gap-1 text-sm text-blue-300 transition duration-300 hover:text-blue-400 hover:underline"
+                    onClick={() =>
+                      window.open("https://www.tharasiri.com/", "_blank")
+                    }
+                  >
+                    <span>Tharasiri</span>
+                    <BiLinkExternal />
                   </div>
                 </div>
               </div>
