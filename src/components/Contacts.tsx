@@ -6,13 +6,17 @@ import { FaRegCopy } from "react-icons/fa6";
 import { useState } from "react";
 
 const Contacts = () => {
-  const email = "cotkgtasa123@gmail.com";
+  const email = "jirasak.suktakua@gmail.com";
   const [copied, setCopied] = useState(false);
 
   const handleCopy = async () => {
     try {
       await navigator.clipboard.writeText(email);
       setCopied(true);
+
+      setTimeout(() => {
+        setCopied(false)
+      }, 2000);
     } catch (error: any) {
       console.error("Failed to copy:", error);
     }
@@ -60,7 +64,6 @@ const Contacts = () => {
               <BiLogoGmail className="h-30 w-30 transform transition duration-500 group-hover:text-blue-500" />
             </div>
             <h1 className="mt-3 flex items-center justify-center gap-2 text-center text-xl text-white md:text-sm lg:text-xl">
-              {" "}
               {email}
               {copied ? (
                 <FaCopy className="text-md text-white" />
