@@ -50,27 +50,29 @@ const Navigation = () => {
   }, [mobile]);
 
   return (
-    <header className="bg-zinc-800">
+    <header className="dark:bg-[#161616]">
       <nav
-        className={`bg-background/80 z-50 w-full border-b border-zinc-700 bg-zinc-800/80 backdrop-blur-lg transition-all duration-600 ${
+        className={`bg-background/40 z-50 w-full border-white/5 backdrop-blur transition-all duration-600 dark:bg-[#161616]/80 ${
           fixed ? "fixed top-0 left-0" : "relative"
         }`}
       >
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-20 items-center justify-between">
             <h1 className="text-2xl font-bold text-white sm:text-4xl">
-              Portfolio
+              Jirasak<span className="text-[#0c78e5]">.com</span>
             </h1>
 
             {/* Mobile SildeBar */}
             <div className="block md:hidden">
-              <button onClick={() => setSidebar(!slidebar)}>
-                <FaBars className="text-2xl text-white" />
-              </button>
+              <div className="flex items-center gap-3">
+                <button onClick={() => setSidebar(!slidebar)}>
+                  <FaBars className="text-2xl text-white" />
+                </button>
+              </div>
             </div>
 
             {/* DeskTop Navbar */}
-            <div className="hidden space-x-8 text-white md:flex">
+            <div className="hidden items-center space-x-8 text-white md:flex">
               {sections.map((section) => (
                 <Link
                   key={section.id}
@@ -92,7 +94,7 @@ const Navigation = () => {
       </nav>
 
       {slidebar && (
-        <div className="fixed top-20 right-0 left-0 z-40 flex flex-col items-center space-y-4 bg-zinc-800/40 py-6 backdrop-blur-lg md:hidden">
+        <div className="bg-background/40 fixed top-20 right-0 left-0 z-40 flex flex-col items-center space-y-4 bg-[#161616]/80 py-6 backdrop-blur md:hidden">
           {sections.map((section) => (
             <Link
               key={section.id}

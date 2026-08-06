@@ -11,7 +11,7 @@ const Home = () => {
         <Index />
         <SkillsTools />
         <Myproject />
-        <Contacts />
+        <Contacts /> 
       </Container>
     </>
   );

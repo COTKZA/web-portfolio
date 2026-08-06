@@ -15,7 +15,7 @@ const Contacts = () => {
       setCopied(true);
 
       setTimeout(() => {
-        setCopied(false)
+        setCopied(false);
       }, 2000);
     } catch (error: any) {
       console.error("Failed to copy:", error);
@@ -23,24 +23,17 @@ const Contacts = () => {
   };
 
   return (
-    <div
-      id="contact"
-      className="relative bg-linear-to-b from-zinc-800 via-neutral-800 to-neutral-900"
-    >
-      <img
-        src="/image/stacked-waves-haikei.svg"
-        className="absolute inset-0 h-full w-full object-cover opacity-80"
-        alt="background blob"
-      />
-      <div className="relative mx-auto flex min-h-screen max-w-7xl flex-col justify-center px-4 pt-20 pb-20 sm:px-6 lg:px-8">
-        <h2 className="z-10 text-4xl font-extrabold text-white md:text-5xl">
-          ติดต่อ
-        </h2>
+    <div id="contact" className="py-20">
+      <div className="relativeflex flex-col justify-center">
+        <div className="mb-16 flex flex-col">
+          <h2 className="text-4xl font-extrabold text-white">ติดต่อ</h2>
+          <div className="mt-4 h-1 w-28 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500"></div>
+        </div>
         <div className="mt-10 grid grid-cols-1 gap-3 sm:grid-cols-3 sm:gap-3">
           <a href="https://github.com/COTKZA" target="_blank">
-            <div className="group transform rounded-lg border border-neutral-500/40 bg-neutral-800/70 p-4 shadow-lg backdrop-blur-lg transition duration-500 hover:border-[#0c78e5]">
+            <div className="group transform rounded-lg border-b border-neutral-800 bg-[#1e1e1e] p-4 shadow-lg backdrop-blur-lg transition duration-500">
               <div className="flex items-center justify-center">
-                <BsGithub className="h-30 w-30 transform transition duration-500 group-hover:text-blue-500" />
+                <BsGithub className="h-30 w-30 transform transition duration-500 group-hover:text-[#0c78e5]" />
               </div>
               <h1 className="mt-3 text-center text-xl text-white md:text-sm lg:text-xl">
                 Jirasak Suktakua
@@ -49,9 +42,9 @@ const Contacts = () => {
           </a>
 
           <a href="https://www.facebook.com/COTKZA" target="_blank">
-            <div className="group transform rounded-lg border border-neutral-500/40 bg-neutral-800/70 p-4 shadow-lg backdrop-blur-lg transition duration-500 hover:border-[#0c78e5]">
+            <div className="group transform rounded-lg border-b border-neutral-800 bg-[#1e1e1e] p-4 shadow-lg backdrop-blur-lg transition duration-500">
               <div className="flex items-center justify-center">
-                <BsFacebook className="h-30 w-30 transform transition duration-500 group-hover:text-blue-500" />
+                <BsFacebook className="h-30 w-30 transform transition duration-500 group-hover:text-[#0c78e5]" />
               </div>
               <h1 className="mt-3 text-center text-xl text-white md:text-sm lg:text-xl">
                 Jirasak Suktakua
@@ -59,9 +52,9 @@ const Contacts = () => {
             </div>
           </a>
 
-          <div className="group transform rounded-lg border border-neutral-500/40 bg-neutral-800/70 p-4 shadow-lg backdrop-blur-lg transition duration-500 hover:border-[#0c78e5]">
+          <div className="group transform rounded-lg border-b border-neutral-800 bg-[#1e1e1e] p-4 shadow-lg backdrop-blur-lg transition duration-500">
             <div className="flex items-center justify-center">
-              <BiLogoGmail className="h-30 w-30 transform transition duration-500 group-hover:text-blue-500" />
+              <BiLogoGmail className="h-30 w-30 transform transition duration-500 group-hover:text-[#0c78e5]" />
             </div>
             <h1 className="mt-3 flex items-center justify-center gap-2 text-center text-xl text-white md:text-sm lg:text-xl">
               {email}

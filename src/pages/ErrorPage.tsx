@@ -2,12 +2,12 @@ import { NavLink } from "react-router";
 
 const ErrorPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-linear-to-b from-zinc-800 via-neutral-800 to-neutral-900 py-20 text-sm max-md:px-4">
-      <h1 className="bg-linear-to-r from-white to-gray-500 bg-clip-text text-4xl font-bold text-transparent md:text-5xl">
+    <div className="flex min-h-screen flex-col items-center justify-center bg-[#161616] py-20 text-sm max-md:px-4">
+      <h1 className="bg-linear-to-r from-white to-red-500 bg-clip-text text-4xl font-bold text-transparent md:text-5xl">
         404 Not Found
       </h1>
       <div className="my-5 h-px w-80 rounded bg-linear-to-r from-gray-400 to-gray-800 md:my-7"></div>
-      <p className="max-w-lg text-center text-gray-400 md:text-xl">
+      <p className="max-w-lg text-center text-red-400 md:text-xl">
         The page you are looking for does not exist or has been moved.
       </p>
       <NavLink
