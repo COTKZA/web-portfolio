@@ -107,7 +107,7 @@ const Myproject = () => {
                   </defs>
                 </svg>
                 <span className="pointer-events-none absolute -top-10 rounded-md border border-neutral-700 bg-neutral-800 px-2 py-1 text-xs font-medium whitespace-nowrap text-white opacity-0 shadow-xl transition-all duration-200 group-hover/tooltip:opacity-100">
-                  tailwindcss
+                  Tailwindcss
                   <div className="absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45 border-r border-b border-neutral-700 bg-neutral-800"></div>
                 </span>
               </div>
@@ -258,7 +258,7 @@ const Myproject = () => {
                   </defs>
                 </svg>
                 <span className="pointer-events-none absolute -top-10 rounded-md border border-neutral-700 bg-neutral-800 px-2 py-1 text-xs font-medium whitespace-nowrap text-white opacity-0 shadow-xl transition-all duration-200 group-hover/tooltip:opacity-100">
-                  tailwindcss
+                  Tailwindcss
                   <div className="absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45 border-r border-b border-neutral-700 bg-neutral-800"></div>
                 </span>
               </div>
@@ -391,7 +391,7 @@ const Myproject = () => {
                   </defs>
                 </svg>
                 <span className="pointer-events-none absolute -top-10 rounded-md border border-neutral-700 bg-neutral-800 px-2 py-1 text-xs font-medium whitespace-nowrap text-white opacity-0 shadow-xl transition-all duration-200 group-hover/tooltip:opacity-100">
-                  tailwindcss
+                  Tailwindcss
                   <div className="absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45 border-r border-b border-neutral-700 bg-neutral-800"></div>
                 </span>
               </div>
@@ -510,7 +510,7 @@ const Myproject = () => {
                   </defs>
                 </svg>
                 <span className="pointer-events-none absolute -top-10 rounded-md border border-neutral-700 bg-neutral-800 px-2 py-1 text-xs font-medium whitespace-nowrap text-white opacity-0 shadow-xl transition-all duration-200 group-hover/tooltip:opacity-100">
-                  tailwindcss
+                  Tailwindcss
                   <div className="absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45 border-r border-b border-neutral-700 bg-neutral-800"></div>
                 </span>
               </div>
