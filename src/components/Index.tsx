@@ -89,7 +89,8 @@ const Index = () => {
               </button>
             </Link>
             <a
-              href=""
+              href="https://drive.google.com/drive/folders/1XopSQr_fE9_eP-RfOgZjka8l57-YVDRu?usp=sharing"
+              target="_blank"
               className="group relative overflow-hidden rounded-lg border-2 border-[#0c78e5] px-10 py-2 text-lg font-semibold text-white transition-all duration-300 hover:rounded-none"
             >
               <span className="absolute inset-0 origin-bottom scale-y-0 bg-[#0c78e5] transition-transform duration-300 ease-out group-hover:scale-y-100" />

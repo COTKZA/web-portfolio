@@ -20,21 +20,40 @@ const Navigation = () => {
   };
 
   const handleScroll = () => {
-    const scrollPos = window.scrollY + 100;
+    const scrollPos = window.scrollY + 120;
 
-    for (let section of sections) {
+    let currentSection = "home";
+
+    sections.forEach((section) => {
       const el = document.getElementById(section.id);
-      if (el && scrollPos >= el.offsetTop) {
-        setActive(section.id);
+
+      if (!el) return;
+
+      const sectionTop = el.getBoundingClientRect().top + window.scrollY;
+
+      if (scrollPos >= sectionTop) {
+        currentSection = section.id;
       }
-    }
+    });
+
+    setActive(currentSection);
+
+    // for (let section of sections) {
+    //   const el = document.getElementById(section.id);
+    //   if (el && scrollPos >= el.offsetTop) {
+    //     setActive(section.id);
+    //   }
+    // }
 
     if (mobile) {
       setFixed(true);
     } else {
       const skillSection = document.getElementById("skill");
       if (skillSection) {
-        setFixed(window.scrollY >= skillSection.offsetTop);
+        const skillTop =
+          skillSection.getBoundingClientRect().top + window.window.scrollY;
+
+        setFixed(window.scrollY >= skillTop);
       }
     }
   };
@@ -53,7 +72,7 @@ const Navigation = () => {
     <header className="dark:bg-[#161616]">
       <nav
         className={`bg-background/40 z-50 w-full border-white/5 backdrop-blur transition-all duration-600 dark:bg-[#161616]/80 ${
-          fixed ? "fixed top-0 left-0" : "relative"
+          fixed ? "fixed top-0 right-0 left-0" : "relative"
         }`}
       >
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

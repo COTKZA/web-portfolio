@@ -23,41 +23,41 @@ const Contacts = () => {
   };
 
   return (
-    <div id="contact" className="py-20">
-      <div className="relativeflex flex-col justify-center">
+    <div id="contact" className="min-h-screen scroll-mt-10 py-10 pb-10 flex items-center">
+      <div className="relative flex flex-col justify-center">
         <div className="mb-16 flex flex-col">
           <h2 className="text-4xl font-extrabold text-white">ติดต่อ</h2>
           <div className="mt-4 h-1 w-28 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500"></div>
         </div>
         <div className="mt-10 grid grid-cols-1 gap-3 sm:grid-cols-3 sm:gap-3">
           <a href="https://github.com/COTKZA" target="_blank">
-            <div className="group transform rounded-lg border-b border-neutral-800 bg-[#1e1e1e] p-4 shadow-lg backdrop-blur-lg transition duration-500">
+            <div className="group transform rounded-lg border border-neutral-700/50 bg-neutral-900/60 p-4 shadow-lg backdrop-blur-lg transition duration-500">
               <div className="flex items-center justify-center">
                 <BsGithub className="h-30 w-30 transform transition duration-500 group-hover:text-[#0c78e5]" />
               </div>
-              <h1 className="mt-3 text-center text-xl text-white md:text-sm lg:text-xl">
+              <h1 className="mt-3 text-center text-md text-white md:text-sm lg:text-xl">
                 Jirasak Suktakua
               </h1>
             </div>
           </a>
 
           <a href="https://www.facebook.com/COTKZA" target="_blank">
-            <div className="group transform rounded-lg border-b border-neutral-800 bg-[#1e1e1e] p-4 shadow-lg backdrop-blur-lg transition duration-500">
+            <div className="group transform rounded-lg border border-neutral-700/50 bg-neutral-900/60 p-4 shadow-lg backdrop-blur-lg transition duration-500">
               <div className="flex items-center justify-center">
                 <BsFacebook className="h-30 w-30 transform transition duration-500 group-hover:text-[#0c78e5]" />
               </div>
-              <h1 className="mt-3 text-center text-xl text-white md:text-sm lg:text-xl">
+              <h1 className="mt-3 text-center text-md text-white md:text-sm lg:text-xl">
                 Jirasak Suktakua
               </h1>
             </div>
           </a>
 
-          <div className="group transform rounded-lg border-b border-neutral-800 bg-[#1e1e1e] p-4 shadow-lg backdrop-blur-lg transition duration-500">
+          <div className="group transform rounded-lg border border-neutral-700/50 bg-neutral-900/60 p-4 shadow-lg backdrop-blur-lg transition duration-500">
             <div className="flex items-center justify-center">
               <BiLogoGmail className="h-30 w-30 transform transition duration-500 group-hover:text-[#0c78e5]" />
             </div>
-            <h1 className="mt-3 flex items-center justify-center gap-2 text-center text-xl text-white md:text-sm lg:text-xl">
-              {email}
+            <h1 className="mt-3 flex items-center justify-center gap-2 text-center text-md text-white md:text-sm lg:text-xl">
+              <span>{email}</span>
               {copied ? (
                 <FaCopy className="text-md text-white" />
               ) : (
