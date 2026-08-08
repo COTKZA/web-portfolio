@@ -23,40 +23,44 @@ const Contacts = () => {
   };
 
   return (
-    <div id="contact" className="min-h-screen scroll-mt-10 py-10 pb-10 flex items-center">
-      <div className="relative flex flex-col justify-center">
-        <div className="mb-16 flex flex-col">
+    <div
+      id="contact"
+      className="flex min-h-[calc(100vh-5rem)] scroll-mt-20 flex-col justify-center py-16 md:py-24"
+    >
+      <div className="w-full">
+        <div className="mb-12 flex flex-col">
           <h2 className="text-4xl font-extrabold text-white">ติดต่อ</h2>
           <div className="mt-4 h-1 w-28 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500"></div>
         </div>
-        <div className="mt-10 grid grid-cols-1 gap-3 sm:grid-cols-3 sm:gap-3">
+
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
           <a href="https://github.com/COTKZA" target="_blank">
-            <div className="group transform rounded-lg border border-neutral-700/50 bg-neutral-900/60 p-4 shadow-lg backdrop-blur-lg transition duration-500">
+            <div className="group flex flex-col items-center justify-center rounded-xl border border-neutral-700/50 bg-neutral-900/60 p-6 text-center shadow-lg backdrop-blur-lg transition-all duration-300 hover:-translate-y-2 hover:border-blue-500/50">
               <div className="flex items-center justify-center">
-                <BsGithub className="h-30 w-30 transform transition duration-500 group-hover:text-[#0c78e5]" />
+                <BsGithub className="h-18 w-18 md:h-25 md:w-25 lg:h-30 transform text-white transition duration-500 group-hover:text-[#0c78e5]" />
               </div>
-              <h1 className="mt-3 text-center text-md text-white md:text-sm lg:text-xl">
+              <h1 className="text-md mt-3 text-center text-white md:text-sm lg:text-xl">
                 Jirasak Suktakua
               </h1>
             </div>
           </a>
 
           <a href="https://www.facebook.com/COTKZA" target="_blank">
-            <div className="group transform rounded-lg border border-neutral-700/50 bg-neutral-900/60 p-4 shadow-lg backdrop-blur-lg transition duration-500">
+            <div className="group flex flex-col items-center justify-center rounded-xl border border-neutral-700/50 bg-neutral-900/60 p-6 text-center shadow-lg backdrop-blur-lg transition-all duration-300 hover:-translate-y-2 hover:border-blue-500/50">
               <div className="flex items-center justify-center">
-                <BsFacebook className="h-30 w-30 transform transition duration-500 group-hover:text-[#0c78e5]" />
+                <BsFacebook className="h-18 w-18 md:h-25 md:w-25 lg:h-30 lg:w-30 transform text-white transition duration-500 group-hover:text-[#0c78e5]" />
               </div>
-              <h1 className="mt-3 text-center text-md text-white md:text-sm lg:text-xl">
+              <h1 className="text-md mt-3 text-center text-white md:text-sm lg:text-xl">
                 Jirasak Suktakua
               </h1>
             </div>
           </a>
 
-          <div className="group transform rounded-lg border border-neutral-700/50 bg-neutral-900/60 p-4 shadow-lg backdrop-blur-lg transition duration-500">
+          <div className="group flex flex-col items-center justify-center rounded-xl border border-neutral-700/50 bg-neutral-900/60 p-6 text-center shadow-lg backdrop-blur-lg transition-all duration-300 hover:border-blue-500/50">
             <div className="flex items-center justify-center">
-              <BiLogoGmail className="h-30 w-30 transform transition duration-500 group-hover:text-[#0c78e5]" />
+              <BiLogoGmail className="h-18 w-18 md:h-25 md:w-25 lg:h-30 transform text-white transition duration-500 group-hover:text-[#0c78e5]" />
             </div>
-            <h1 className="mt-3 flex items-center justify-center gap-2 text-center text-md text-white md:text-sm lg:text-xl">
+            <h1 className="text-md mt-3 flex items-center justify-center gap-2 text-center text-white md:text-sm lg:text-xl">
               <span>{email}</span>
               {copied ? (
                 <FaCopy className="text-md text-white" />

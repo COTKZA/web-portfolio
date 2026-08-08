@@ -3,7 +3,7 @@ const SkillsTools = () => {
     <section id="skill" className="py-20">
       {/* header section */}
       <div className="mb-16 flex flex-col">
-        <h2 className="text-4xl font-extrabold text-white">Skills</h2>
+        <h2 className="text-4xl font-extrabold text-white">ทักษะ</h2>
         <div className="mt-4 h-1 w-25 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500"></div>
       </div>
 
