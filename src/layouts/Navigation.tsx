@@ -38,13 +38,6 @@ const Navigation = () => {
 
     setActive(currentSection);
 
-    // for (let section of sections) {
-    //   const el = document.getElementById(section.id);
-    //   if (el && scrollPos >= el.offsetTop) {
-    //     setActive(section.id);
-    //   }
-    // }
-
     if (mobile) {
       setFixed(true);
     } else {
