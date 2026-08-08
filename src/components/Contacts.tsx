@@ -37,7 +37,7 @@ const Contacts = () => {
           <a href="https://github.com/COTKZA" target="_blank">
             <div className="group flex flex-col items-center justify-center rounded-xl border border-neutral-700/50 bg-neutral-900/60 p-6 text-center shadow-lg backdrop-blur-lg transition-all duration-300 hover:-translate-y-2 hover:border-blue-500/50">
               <div className="flex items-center justify-center">
-                <BsGithub className="h-18 w-18 md:h-25 md:w-25 lg:h-30 transform text-white transition duration-500 group-hover:text-[#0c78e5]" />
+                <BsGithub className="h-18 w-18 transform text-white transition duration-500 group-hover:text-[#0c78e5] md:h-25 md:w-25 lg:h-30 lg:w-30" />
               </div>
               <h1 className="text-md mt-3 text-center text-white md:text-sm lg:text-xl">
                 Jirasak Suktakua
@@ -48,7 +48,7 @@ const Contacts = () => {
           <a href="https://www.facebook.com/COTKZA" target="_blank">
             <div className="group flex flex-col items-center justify-center rounded-xl border border-neutral-700/50 bg-neutral-900/60 p-6 text-center shadow-lg backdrop-blur-lg transition-all duration-300 hover:-translate-y-2 hover:border-blue-500/50">
               <div className="flex items-center justify-center">
-                <BsFacebook className="h-18 w-18 md:h-25 md:w-25 lg:h-30 lg:w-30 transform text-white transition duration-500 group-hover:text-[#0c78e5]" />
+                <BsFacebook className="h-18 w-18 transform text-white transition duration-500 group-hover:text-[#0c78e5] md:h-25 md:w-25 lg:h-30 lg:w-30" />
               </div>
               <h1 className="text-md mt-3 text-center text-white md:text-sm lg:text-xl">
                 Jirasak Suktakua
@@ -58,7 +58,7 @@ const Contacts = () => {
 
           <div className="group flex flex-col items-center justify-center rounded-xl border border-neutral-700/50 bg-neutral-900/60 p-6 text-center shadow-lg backdrop-blur-lg transition-all duration-300 hover:border-blue-500/50">
             <div className="flex items-center justify-center">
-              <BiLogoGmail className="h-18 w-18 md:h-25 md:w-25 lg:h-30 transform text-white transition duration-500 group-hover:text-[#0c78e5]" />
+              <BiLogoGmail className="h-18 w-18 transform text-white transition duration-500 group-hover:text-[#0c78e5] md:h-25 md:w-25 lg:h-30 lg:w-30" />
             </div>
             <h1 className="text-md mt-3 flex items-center justify-center gap-2 text-center text-white md:text-sm lg:text-xl">
               <span>{email}</span>
