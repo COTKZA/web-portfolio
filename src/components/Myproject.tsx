@@ -211,7 +211,7 @@ const Myproject = () => {
           {/* content */}
           <div className="flex flex-1 flex-col p-6">
             <h3 className="text-xl font-bold text-white transition-colors duration-300 group-hover:text-blue-400">
-              BottleRefund
+              BottleRefund Landing Page
             </h3>
             {/* tech stack icon */}
             <div className="mt-4 mb-4 flex flex-wrap items-center gap-3">

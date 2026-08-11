@@ -37,7 +37,7 @@ const AIKnowledgeSkillsModal = ({ isOpen, onClose }: Props) => {
 
         <div className="mt-1 w-full border-2 border-b border-gray-400"></div>
 
-        <div className="min-h-0 flex-1 overflow-y-auto p-4 sm:p-6">
+        <div className="min-h-0 flex-1 transform-gpu overflow-y-auto overscroll-contain p-4 sm:p-6">
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             <div className="grid grid-cols-3 gap-2">
               <div className="col-span-3">

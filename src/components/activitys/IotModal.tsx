@@ -21,8 +21,8 @@ const IotModal = ({ isOpen, onClose }: Props) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/60 p-2 backdrop-blur-sm sm:items-center sm:p-4">
-      <div className="flex max-h-[90vh] w-full flex-col overflow-hidden rounded-2xl border border-neutral-700/50 bg-neutral-900 shadow-2xl sm:max-w-2xl lg:max-w-6xl">
+    <div className="fixed inset-0 z-50 flex items-end justify-center p-2 backdrop-blur-sm sm:items-center sm:p-4">
+      <div className="relative z-10 flex max-h-[90vh] w-full flex-col overflow-hidden rounded-2xl border border-neutral-700/50 bg-neutral-900 shadow-2xl sm:max-w-2xl lg:max-w-6xl">
         <div className="flex items-center justify-between px-5 py-4">
           <h2 className="text-lg font-bold text-white sm:text-xl lg:text-2xl">
             กิจกรรมอบรมสมรรถนะดิจิทัล การพัฒนางาน Internet of Things (IoT)
@@ -39,7 +39,7 @@ const IotModal = ({ isOpen, onClose }: Props) => {
 
         <div className="mt-1 w-full border-2 border-b border-gray-400"></div>
 
-        <div className="min-h-0 flex-1 overflow-y-auto p-4 sm:p-6">
+        <div className="min-h-0 flex-1 transform-gpu overflow-y-auto overscroll-contain p-4 sm:p-6">
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             <div className="grid grid-cols-3 gap-2">
               <div className="col-span-3">
@@ -168,7 +168,7 @@ const IotModal = ({ isOpen, onClose }: Props) => {
                 <div className="mt-3 w-full border border-b border-gray-400"></div>
               </div>
 
-              <div className="text-white space-y-3">
+              <div className="space-y-3 text-white">
                 <p className="flex gap-3">
                   <span className="text-blue-400">◉</span>
                   <span>
