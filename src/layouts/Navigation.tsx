@@ -4,6 +4,7 @@ import { FaBars } from "react-icons/fa";
 
 const sections = [
   { id: "home", label: "หน้าแรก" },
+  { id: "activitys", label: "กิจกรรม" },
   { id: "skill", label: "ทักษะ" },
   { id: "project", label: "ผลงาน" },
   { id: "contact", label: "ติดต่อ" },
@@ -41,7 +42,7 @@ const Navigation = () => {
     if (mobile) {
       setFixed(true);
     } else {
-      const skillSection = document.getElementById("skill");
+      const skillSection = document.getElementById("activitys");
       if (skillSection) {
         const skillTop =
           skillSection.getBoundingClientRect().top + window.window.scrollY;
