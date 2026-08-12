@@ -47,7 +47,6 @@ const IotModal = ({ isOpen, onClose }: Props) => {
                   src="/image/activitys/iot/DSC09710.webp"
                   alt="DSC09710"
                   className="h-48 w-full rounded-lg object-cover sm:h-64"
-                  loading="lazy"
                 />
               </div>
 
@@ -57,7 +56,6 @@ const IotModal = ({ isOpen, onClose }: Props) => {
                   src="/image/activitys/iot/DSC09725.webp"
                   alt="DSC09725"
                   className="h-24 w-full rounded-lg object-cover sm:h-32"
-                  loading="lazy"
                 />
               </div>
               <div className="col-span-1">
@@ -65,7 +63,6 @@ const IotModal = ({ isOpen, onClose }: Props) => {
                   src="/image/activitys/iot/IMG_6261.webp"
                   alt="IMG_6261"
                   className="h-24 w-full rounded-lg object-cover sm:h-32"
-                  loading="lazy"
                 />
               </div>
               <div className="col-span-1">
@@ -73,7 +70,6 @@ const IotModal = ({ isOpen, onClose }: Props) => {
                   src="/image/activitys/iot/IMG_6264.webp"
                   alt="IMG_6264"
                   className="h-24 w-full rounded-lg object-cover sm:h-32"
-                  loading="lazy"
                 />
               </div>
 
@@ -83,7 +79,6 @@ const IotModal = ({ isOpen, onClose }: Props) => {
                   src="/image/activitys/iot/IMG_6364.webp"
                   alt="IMG_6364"
                   className="h-24 w-full rounded-lg object-cover sm:h-32"
-                  loading="lazy"
                 />
               </div>
               <div className="col-span-1">
@@ -91,7 +86,6 @@ const IotModal = ({ isOpen, onClose }: Props) => {
                   src="/image/activitys/iot/IMG_6403.webp"
                   alt="IMG_6474"
                   className="h-24 w-full rounded-lg object-cover sm:h-32"
-                  loading="lazy"
                 />
               </div>
               <div className="col-span-1">
@@ -99,7 +93,6 @@ const IotModal = ({ isOpen, onClose }: Props) => {
                   src="/image/activitys/iot/IMG_6622.webp"
                   alt="IMG_6622"
                   className="h-24 w-full rounded-lg object-cover sm:h-32"
-                  loading="lazy"
                 />
               </div>
 
@@ -108,7 +101,6 @@ const IotModal = ({ isOpen, onClose }: Props) => {
                   src="/image/activitys/iot/เกียรติบัตรวิทยากรและผู้ช่วยวิทยากร.webp"
                   alt="เกียรติบัตรวิทยากรและผู้ช่วยวิทยากร"
                   className="h-48 w-full rounded-lg object-contain sm:h-64"
-                  loading="lazy"
                 />
               </div>
               <div className="col-span-3">
@@ -116,7 +108,6 @@ const IotModal = ({ isOpen, onClose }: Props) => {
                   src="/image/activitys/iot/ทีมงาน-ประกาศนียบัตร-ผู้เข้าร่วมและผู้ช่วย.webp"
                   alt="ทีมงาน-ประกาศนียบัตร-ผู้เข้าร่วมและผู้ช่วย"
                   className="h-48 w-full rounded-lg object-contain sm:h-64"
-                  loading="lazy"
                 />
               </div>
             </div>

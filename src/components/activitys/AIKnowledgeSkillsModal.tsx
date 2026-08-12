@@ -45,7 +45,6 @@ const AIKnowledgeSkillsModal = ({ isOpen, onClose }: Props) => {
                   src="/image/activitys/ai-google/IMG_6426.webp"
                   alt="IMG_6426"
                   className="h-48 w-full rounded-lg object-cover sm:h-64"
-                  loading="lazy"
                 />
               </div>
 
@@ -55,7 +54,6 @@ const AIKnowledgeSkillsModal = ({ isOpen, onClose }: Props) => {
                   src="/image/activitys/ai-google/IMG_6419.webp"
                   alt="IMG_6419"
                   className="h-24 w-full rounded-lg object-cover sm:h-32"
-                  loading="lazy"
                 />
               </div>
               <div className="col-span-1">
@@ -63,7 +61,6 @@ const AIKnowledgeSkillsModal = ({ isOpen, onClose }: Props) => {
                   src="/image/activitys/ai-google/IMG_6430.webp"
                   alt="IMG_6430"
                   className="h-24 w-full rounded-lg object-cover sm:h-32"
-                  loading="lazy"
                 />
               </div>
               <div className="col-span-1">
@@ -71,7 +68,6 @@ const AIKnowledgeSkillsModal = ({ isOpen, onClose }: Props) => {
                   src="/image/activitys/ai-google/IMG_6443.webp"
                   alt="IMG_6443"
                   className="h-24 w-full rounded-lg object-cover sm:h-32"
-                  loading="lazy"
                 />
               </div>
 
@@ -81,7 +77,6 @@ const AIKnowledgeSkillsModal = ({ isOpen, onClose }: Props) => {
                   src="/image/activitys/ai-google/IMG_6447.webp"
                   alt="IMG_6447"
                   className="h-24 w-full rounded-lg object-cover sm:h-32"
-                  loading="lazy"
                 />
               </div>
               <div className="col-span-1">
@@ -89,7 +84,6 @@ const AIKnowledgeSkillsModal = ({ isOpen, onClose }: Props) => {
                   src="/image/activitys/ai-google/IMG_6474.webp"
                   alt="IMG_6474"
                   className="h-24 w-full rounded-lg object-cover sm:h-32"
-                  loading="lazy"
                 />
               </div>
               <div className="col-span-1">
@@ -97,7 +91,6 @@ const AIKnowledgeSkillsModal = ({ isOpen, onClose }: Props) => {
                   src="/image/activitys/ai-google/IMG_6535.webp"
                   alt="IMG_6535"
                   className="h-24 w-full rounded-lg object-cover sm:h-32"
-                  loading="lazy"
                 />
               </div>
             </div>
