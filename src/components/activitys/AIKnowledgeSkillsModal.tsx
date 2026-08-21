@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-import { CiLocationOn } from "react-icons/ci";
 import { FaUserAlt } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
 import { IoClose } from "react-icons/io5";
-import { MdOutlineDateRange } from "react-icons/md";
+import { MdDateRange } from "react-icons/md";
 
 interface Props {
   isOpen: boolean;
@@ -99,7 +99,7 @@ const AIKnowledgeSkillsModal = ({ isOpen, onClose }: Props) => {
             <div className="flex flex-col space-y-4">
               <div>
                 <div className="flex items-start">
-                  <MdOutlineDateRange className="mt-0.5 mr-3 text-2xl text-[#0c78e5]" />
+                  <MdDateRange  className="mt-0.5 mr-3 text-2xl text-[#0c78e5]" />
                   <div className="flex flex-col gap-1">
                     <span className="text-md font-semibold text-[#0c78e5]">
                       วัน/เดือน/ปี :
@@ -114,7 +114,7 @@ const AIKnowledgeSkillsModal = ({ isOpen, onClose }: Props) => {
 
               <div>
                 <div className="flex items-start">
-                  <CiLocationOn className="mt-0.5 mr-3 text-2xl text-[#0c78e5]" />
+                  <FaLocationDot  className="mt-0.5 mr-3 text-2xl text-[#0c78e5]" />
                   <div className="flex flex-col gap-1">
                     <span className="text-md font-semibold text-[#0c78e5]">
                       สถานที่ :

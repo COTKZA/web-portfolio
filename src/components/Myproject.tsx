@@ -14,7 +14,7 @@ const Myproject = () => {
       {/* project */}
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         {/* bottle refund member */}
-        <div className="group relative flex flex-col overflow-hidden rounded-2xl border border-neutral-700/50 bg-neutral-900/60 shadow-xl backdrop-blur-xl transition-all duration-500 hover:-translate-y-3 hover:border-blue-500/50">
+        <div className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-neutral-700/50 bg-neutral-900/60 shadow-xl backdrop-blur-xl transition-all duration-500 hover:-translate-y-3 hover:border-blue-500/50">
           {/* mac os top bar */}
           <div className="flex flex-col border-b border-neutral-800 bg-[#1e1e1e]">
             <div className="bg-neutral-800/8- flex items-center px-4 py-5 backdrop-blur-md">
@@ -27,7 +27,7 @@ const Myproject = () => {
 
               {/* url */}
               <div className="mx-auto flex h-6 items-center justify-center rounded-md bg-black/30 px-2 text-[10px] tracking-wider text-neutral-400 shadow-inner sm:w-1/2">
-               https://member.bottlerefund.net
+                https://member.bottlerefund.net
               </div>
 
               <div className="sm:w-[42px]"></div>
@@ -48,6 +48,14 @@ const Myproject = () => {
             <h3 className="text-xl font-bold text-white transition-colors duration-300 group-hover:text-blue-400">
               BottleRefund Member
             </h3>
+
+            <p className="mt-3 text-sm leading-6 text-neutral-400">
+              แพลตฟอร์มจัดการการคืนขวดและขยะรีไซเคิล พัฒนาในส่วน Frontend เเละ
+              BackEnd สำหรับเช็คข้อมูลสมาชิก คะแนนสะสม และข้อมูลการรีไซเคิล
+              เเละระบบจัดการหลังบ้าน โดยเน้น UI/UX ที่ใช้งานง่าย รองรับ
+              Responsive Design
+            </p>
+
             {/* tech stack icon */}
             <div className="mt-4 mb-4 flex flex-wrap items-center gap-3">
               <div className="group/tooltip relative flex items-center justify-center rounded-full border border-neutral-700/50 bg-neutral-800 p-2 transition-all hover:border-neutral-500 hover:bg-neutral-700">
@@ -153,7 +161,7 @@ const Myproject = () => {
             </div>
 
             {/* button */}
-            <div className="grid grid-cols-2 gap-3 border-t border-neutral-800/50 pt-5">
+            <div className="mt-auto grid grid-cols-2 gap-3 border-t border-neutral-800/50 pt-5">
               <a href="https://member.bottlerefund.net" target="_blank">
                 <button className="group/website relative w-full overflow-hidden rounded-lg bg-[#0c78e5] p-2 text-lg font-semibold text-white transition-all duration-300 hover:rounded-none">
                   <span className="absolute inset-0 origin-bottom scale-y-0 bg-white transition-transform duration-300 ease-out group-hover/website:scale-y-100" />
@@ -179,7 +187,7 @@ const Myproject = () => {
         </div>
 
         {/* bottle landing page */}
-        <div className="group relative flex flex-col overflow-hidden rounded-2xl border border-neutral-700/50 bg-neutral-900/60 shadow-xl backdrop-blur-xl transition-all duration-500 hover:-translate-y-3 hover:border-blue-500/50">
+        <div className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-neutral-700/50 bg-neutral-900/60 shadow-xl backdrop-blur-xl transition-all duration-500 hover:-translate-y-3 hover:border-blue-500/50">
           {/* mac os top bar */}
           <div className="flex flex-col border-b border-neutral-800 bg-[#1e1e1e]">
             <div className="bg-neutral-800/8- flex items-center px-4 py-5 backdrop-blur-md">
@@ -213,6 +221,14 @@ const Myproject = () => {
             <h3 className="text-xl font-bold text-white transition-colors duration-300 group-hover:text-blue-400">
               BottleRefund Landing Page
             </h3>
+
+            <p className="mt-3 text-sm leading-6 text-neutral-400">
+              แพลตฟอร์มจัดการการคืนขวดและขยะรีไซเคิล พัฒนาในส่วน Frontend
+              พร้อมเชื่อมต่อ REST API สำหรับเช็คข้อมูลสมาชิก คะแนนสะสม
+              และข้อมูลการรีไซเคิล โดยเน้น UI/UX ที่ใช้งานง่าย รองรับ Responsive
+              Design และการจัดการข้อมูลจาก API
+            </p>
+
             {/* tech stack icon */}
             <div className="mt-4 mb-4 flex flex-wrap items-center gap-3">
               <div className="group/tooltip relative flex items-center justify-center rounded-full border border-neutral-700/50 bg-neutral-800 p-2 transition-all hover:border-neutral-500 hover:bg-neutral-700">
@@ -270,7 +286,7 @@ const Myproject = () => {
             </div>
 
             {/* button */}
-            <div className="grid grid-cols-2 gap-3 border-t border-neutral-800/50 pt-5">
+            <div className="mt-auto grid grid-cols-2 gap-3 border-t border-neutral-800/50 pt-5">
               <a href="https://www.bottlerefund.net" target="_blank">
                 <button className="group/website relative w-full overflow-hidden rounded-lg bg-[#0c78e5] p-2 text-lg font-semibold text-white transition-all duration-300 hover:rounded-none">
                   <span className="absolute inset-0 origin-bottom scale-y-0 bg-white transition-transform duration-300 ease-out group-hover/website:scale-y-100" />
@@ -296,7 +312,7 @@ const Myproject = () => {
         </div>
 
         {/* tharasiri */}
-        <div className="group relative flex flex-col overflow-hidden rounded-2xl border border-neutral-700/50 bg-neutral-900/60 shadow-xl backdrop-blur-xl transition-all duration-500 hover:-translate-y-3 hover:border-blue-500/50">
+        <div className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-neutral-700/50 bg-neutral-900/60 shadow-xl backdrop-blur-xl transition-all duration-500 hover:-translate-y-3 hover:border-blue-500/50">
           {/* mac os top bar */}
           <div className="flex flex-col border-b border-neutral-800 bg-[#1e1e1e]">
             <div className="bg-neutral-800/8- flex items-center px-4 py-5 backdrop-blur-md">
@@ -330,6 +346,13 @@ const Myproject = () => {
             <h3 className="text-xl font-bold text-white transition-colors duration-300 group-hover:text-blue-400">
               Tharasiri UI Clone
             </h3>
+
+            <p className="mt-3 text-sm leading-6 text-neutral-400">
+              เว็บไซต์นำเสนอข้อมูลโครงการบ้านธาราศิริ พัฒนาในส่วน Frontend
+              โดยเน้นการออกแบบ UI/UX ที่ทันสมัย สะอาดตา และใช้งานง่าย
+              พร้อมรองรับการแสดงผลแบบ Responsive บน Desktop และ Mobile
+            </p>
+
             {/* tech stack icon */}
             <div className="mt-4 mb-4 flex flex-wrap items-center gap-3">
               <div className="group/tooltip relative flex items-center justify-center rounded-full border border-neutral-700/50 bg-neutral-800 p-2 transition-all hover:border-neutral-500 hover:bg-neutral-700">
@@ -395,7 +418,7 @@ const Myproject = () => {
             </div>
 
             {/* button */}
-            <div className="grid grid-cols-2 gap-3 border-t border-neutral-800/50 pt-5">
+            <div className="mt-auto grid grid-cols-2 gap-3 border-t border-neutral-800/50 pt-5">
               <a href="https://tharasiri.jirasak.com" target="_blank">
                 <button className="group/website relative w-full overflow-hidden rounded-lg bg-[#0c78e5] p-2 text-lg font-semibold text-white transition-all duration-300 hover:rounded-none">
                   <span className="absolute inset-0 origin-bottom scale-y-0 bg-white transition-transform duration-300 ease-out group-hover/website:scale-y-100" />
@@ -421,7 +444,7 @@ const Myproject = () => {
           </div>
         </div>
 
-        <div className="group relative flex flex-col overflow-hidden rounded-2xl border border-neutral-700/50 bg-neutral-900/60 shadow-xl backdrop-blur-xl transition-all duration-500 hover:-translate-y-3 hover:border-blue-500/50">
+        <div className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-neutral-700/50 bg-neutral-900/60 shadow-xl backdrop-blur-xl transition-all duration-500 hover:-translate-y-3 hover:border-blue-500/50">
           {/* mac os top bar */}
           <div className="flex flex-col border-b border-neutral-800 bg-[#1e1e1e]">
             <div className="bg-neutral-800/8- flex items-center px-4 py-5 backdrop-blur-md">
@@ -455,6 +478,13 @@ const Myproject = () => {
             <h3 className="text-xl font-bold text-white transition-colors duration-300 group-hover:text-blue-400">
               Ticketier UI Clone
             </h3>
+
+            <p className="mt-3 text-sm leading-6 text-neutral-400">
+              เว็บไซต์สำหรับนำเสนอข้อมูลบัตรคอนเสิร์ต มิวสิคเฟส และแฟนมีต
+              พัฒนาในส่วน Frontend โดยเน้น UI/UX ที่ทันสมัย ใช้งานง่าย และรองรับ
+              Responsive Design บน Desktop และ Mobile
+            </p>
+
             {/* tech stack icon */}
             <div className="mt-4 mb-4 flex flex-wrap items-center gap-3">
               <div className="group/tooltip relative flex items-center justify-center rounded-full border border-neutral-700/50 bg-neutral-800 p-2 transition-all hover:border-neutral-500 hover:bg-neutral-700">
@@ -513,7 +543,7 @@ const Myproject = () => {
             </div>
 
             {/* button */}
-            <div className="grid grid-cols-2 gap-3 border-t border-neutral-800/50 pt-5">
+            <div className="mt-auto grid grid-cols-2 gap-3 border-t border-neutral-800/50 pt-5">
               <a href="https://ticketier.jirasak.com" target="_blank">
                 <button className="group/website relative w-full overflow-hidden rounded-lg bg-[#0c78e5] p-2 text-lg font-semibold text-white transition-all duration-300 hover:rounded-none">
                   <span className="absolute inset-0 origin-bottom scale-y-0 bg-white transition-transform duration-300 ease-out group-hover/website:scale-y-100" />
@@ -539,7 +569,7 @@ const Myproject = () => {
           </div>
         </div>
 
-        <div className="group relative flex flex-col overflow-hidden rounded-2xl border border-neutral-700/50 bg-neutral-900/60 shadow-xl backdrop-blur-xl transition-all duration-500 hover:-translate-y-3 hover:border-blue-500/50">
+        <div className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-neutral-700/50 bg-neutral-900/60 shadow-xl backdrop-blur-xl transition-all duration-500 hover:-translate-y-3 hover:border-blue-500/50">
           {/* mac os top bar */}
           <div className="flex flex-col border-b border-neutral-800 bg-[#1e1e1e]">
             <div className="bg-neutral-800/8- flex items-center px-4 py-5 backdrop-blur-md">
@@ -574,6 +604,14 @@ const Myproject = () => {
             <h3 className="text-xl font-bold text-white transition-colors duration-300 group-hover:text-blue-400">
               PromptPay Slip Verification
             </h3>
+
+            <p className="mt-3 text-sm leading-6 text-neutral-400">
+              เว็บไซต์สำหรับสร้าง QR PromptPay และตรวจสอบสลิปการโอนเงิน
+              พัฒนาระบบ Frontend พร้อมเชื่อมต่อ API
+              สำหรับตรวจสอบข้อมูลการชำระเงิน โดยเน้น UI/UX
+              ที่ใช้งานง่ายและรองรับ Responsive Design
+            </p>
+
             {/* tech stack icon */}
             <div className="mt-4 mb-4 flex flex-wrap items-center gap-3">
               <div className="group/tooltip relative flex items-center justify-center rounded-full border border-neutral-700/50 bg-neutral-800 p-2 transition-all hover:border-neutral-500 hover:bg-neutral-700">
@@ -637,33 +675,16 @@ const Myproject = () => {
                 </span>
               </div>
               <div className="group/tooltip relative flex items-center justify-center rounded-full border border-neutral-700/50 bg-neutral-800 p-2 transition-all hover:border-neutral-500 hover:bg-neutral-700">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 32 32"
-                  width="20"
-                  height="20"
-                >
-                  <path
-                    fill="#fff"
-                    d="M32 24.795c-1.164.296-1.884.013-2.53-.957l-4.594-6.356-.664-.88-5.365 7.257c-.613.873-1.256 1.253-2.4.944l6.87-9.222-6.396-8.33c1.1-.214 1.86-.105 2.535.88l4.765 6.435 4.8-6.4c.615-.873 1.276-1.205 2.38-.883l-2.48 3.288-3.36 4.375c-.4.5-.345.842.023 1.325L32 24.795zM.008 15.427l.562-2.764C2.1 7.193 8.37 4.92 12.694 8.3c2.527 1.988 3.155 4.8 3.03 7.95H1.48c-.214 5.67 3.867 9.092 9.07 7.346 1.825-.613 2.9-2.042 3.438-3.83.273-.896.725-1.036 1.567-.78-.43 2.236-1.4 4.104-3.45 5.273-3.063 1.75-7.435 1.184-9.735-1.248C1 21.6.434 19.812.18 17.9c-.04-.316-.12-.617-.18-.92q.008-.776.008-1.552zm1.498-.38h12.872c-.084-4.1-2.637-7.012-6.126-7.037-3.83-.03-6.58 2.813-6.746 7.037z"
-                  />
-                </svg>
-                <span className="pointer-events-none absolute -top-10 rounded-md border border-neutral-700 bg-neutral-800 px-2 py-1 text-xs font-medium whitespace-nowrap text-white opacity-0 shadow-xl transition-all duration-200 group-hover/tooltip:opacity-100">
-                  Express.js
-                  <div className="absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45 border-r border-b border-neutral-700 bg-neutral-800"></div>
-                </span>
-              </div>
-              <div className="group/tooltip relative flex items-center justify-center rounded-full border border-neutral-700/50 bg-neutral-800 p-2 transition-all hover:border-neutral-500 hover:bg-neutral-700">
                 <TbApi className="h-5 w-5 text-white" />
                 <span className="pointer-events-none absolute -top-10 rounded-md border border-neutral-700 bg-neutral-800 px-2 py-1 text-xs font-medium whitespace-nowrap text-white opacity-0 shadow-xl transition-all duration-200 group-hover/tooltip:opacity-100">
-                  API Express.js
+                  API
                   <div className="absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45 border-r border-b border-neutral-700 bg-neutral-800"></div>
                 </span>
               </div>
             </div>
 
             {/* button */}
-            <div className="grid grid-cols-2 gap-3 border-t border-neutral-800/50 pt-5">
+            <div className="mt-auto grid grid-cols-2 gap-3 border-t border-neutral-800/50 pt-5">
               <a href="https://promptpay.jirasak.com/" target="_blank">
                 <button className="group/website relative w-full overflow-hidden rounded-lg bg-[#0c78e5] p-2 text-lg font-semibold text-white transition-all duration-300 hover:rounded-none">
                   <span className="absolute inset-0 origin-bottom scale-y-0 bg-white transition-transform duration-300 ease-out group-hover/website:scale-y-100" />
