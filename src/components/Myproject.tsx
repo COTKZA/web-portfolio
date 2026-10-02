@@ -877,7 +877,7 @@ const Myproject = () => {
             {/* img */}
             <div className="relative aspect-video w-full overflow-hidden">
               <img
-                src="/image/myproject/gastronomy8riw.png"
+                src="/image/myproject/gastronomy8riw.webp"
                 alt="promptpay"
                 loading="lazy"
                 className="relative inset-0 z-20 h-full object-cover transition-transform duration-700"
