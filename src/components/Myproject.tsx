@@ -854,6 +854,158 @@ const Myproject = () => {
             </div>
           </div>
         </div>
+
+        <div className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-neutral-700/50 bg-neutral-900/60 shadow-xl backdrop-blur-xl transition-all duration-500 hover:-translate-y-3 hover:border-blue-500/50">
+          {/* mac os top bar */}
+          <div className="flex flex-col border-b border-neutral-800 bg-[#1e1e1e]">
+            <div className="bg-neutral-800/8- flex items-center px-4 py-5 backdrop-blur-md">
+              {/* colors */}
+              <div className="flex gap-1.5">
+                <div className="h-3 w-3 rounded-full bg-[#ff5f56] shadow-sm"></div>
+                <div className="h-3 w-3 rounded-full bg-[#ffbd2e] shadow-sm"></div>
+                <div className="h-3 w-3 rounded-full bg-[#27c93f] shadow-sm"></div>
+              </div>
+
+              {/* url */}
+              <div className="mx-auto flex h-6 items-center justify-center rounded-md bg-black/30 px-2 text-[10px] tracking-wider text-neutral-400 shadow-inner sm:w-1/2">
+                https://gastronomy8riw.com/
+              </div>
+
+              <div className="sm:w-[42px]"></div>
+            </div>
+
+            {/* img */}
+            <div className="relative aspect-video w-full overflow-hidden">
+              <img
+                src="/image/myproject/gastronomy8riw.png"
+                alt="promptpay"
+                loading="lazy"
+                className="relative inset-0 z-20 h-full object-cover transition-transform duration-700"
+              />
+              <div className="absolute top-3 right-3 z-30 flex items-center gap-1.5 rounded-full border border-blue-400/30 bg-neutral-900/80 px-3 py-1.5 text-xs font-medium text-blue-400 shadow-lg backdrop-blur-md">
+                <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-blue-400" />
+                In Development
+              </div>
+              {/* <div className="absolute inset-0 z-20 bg-gradient-to-t from-neutral-900 via-transparent to-transparent opacity-80"></div> */}
+            </div>
+          </div>
+          {/* content */}
+          <div className="flex flex-1 flex-col p-6">
+            <h3 className="text-xl font-bold text-white transition-colors duration-300 group-hover:text-blue-400">
+              พุงตึงริมกง หลงเสน่ห์แปดริ้ว
+            </h3>
+
+            <p className="mt-3 text-sm leading-6 text-neutral-400">
+              เป็นเว็บไซต์แนะนำการท่องเที่ยวเชิงอาหารในจังหวัดฉะเชิงเทรา
+              ที่รวบรวมข้อมูลร้านอาหารริมแม่น้ำบางปะกง สถานที่ท่องเที่ยว
+              และเส้นทางการเดินทาง
+              เพื่อช่วยให้นักท่องเที่ยวสามารถค้นหาและวางแผนทริปได้สะดวก
+              พร้อมส่งเสริมการท่องเที่ยวและสร้างประโยชน์ให้แก่ชุมชนในพื้นที่
+            </p>
+
+            {/* tech stack icon */}
+            <div className="mt-4 mb-4 flex flex-wrap items-center gap-3">
+              <div className="group/tooltip relative flex items-center justify-center rounded-full border border-neutral-700/50 bg-neutral-800 p-2 transition-all hover:border-neutral-500 hover:bg-neutral-700">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="20"
+                  height="20">
+                  <defs>
+                    <linearGradient
+                      id="SVGrDou6dwg"
+                      x1="55.633%"
+                      x2="83.228%"
+                      y1="56.385%"
+                      y2="96.08%"
+                    >
+                      <stop offset="0%" stopColor="#fff" />
+                      <stop offset="100%" stopColor="#fff" stopOpacity="0" />
+                    </linearGradient>
+                    <linearGradient
+                      id="SVG9onTObtB"
+                      x1="50%"
+                      x2="49.953%"
+                      y1="0%"
+                      y2="73.438%"
+                    >
+                      <stop offset="0%" stopColor="#fff" />
+                      <stop offset="100%" stopColor="#fff" stopOpacity="0" />
+                    </linearGradient>
+                    <circle id="SVGN5eQqeMK" cx="128" cy="128" r="128" />
+                  </defs>
+                  <mask id="SVGMX2wGdvm" fill="#fff">
+                    <use href="#SVGN5eQqeMK" />
+                  </mask>
+                  <g mask="url(#SVGMX2wGdvm)">
+                    <circle cx="128" cy="128" r="128" />
+                    <path
+                      fill="url(#SVGrDou6dwg)"
+                      d="M212.634 224.028L98.335 76.8H76.8v102.357h17.228V98.68L199.11 234.446a128 128 0 0 0 13.524-10.418"
+                    />
+                    <path
+                      fill="url(#SVG9onTObtB)"
+                      d="M163.556 76.8h17.067v102.4h-17.067z"
+                    />
+                  </g>
+                </svg>
+                <span className="pointer-events-none absolute -top-10 rounded-md border border-neutral-700 bg-neutral-800 px-2 py-1 text-xs font-medium whitespace-nowrap text-white opacity-0 shadow-xl transition-all duration-200 group-hover/tooltip:opacity-100">
+                  Next.js
+                  <div className="absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45 border-r border-b border-neutral-700 bg-neutral-800"></div>
+                </span>
+              </div>
+              <div className="group/tooltip relative flex items-center justify-center rounded-full border border-neutral-700/50 bg-neutral-800 p-2 transition-all hover:border-neutral-500 hover:bg-neutral-700">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 54 33"
+                  width="20"
+                  height="20"
+                >
+                  <g clipPath="url(#a)">
+                    <path
+                      fill="#38bdf8"
+                      fillRule="evenodd"
+                      d="M27 0c-7.2 0-11.7 3.6-13.5 10.8 2.7-3.6 5.85-4.95 9.45-4.05 2.054.513 3.522 2.004 5.147 3.653C30.744 13.09 33.808 16.2 40.5 16.2c7.2 0 11.7-3.6 13.5-10.8-2.7 3.6-5.85 4.95-9.45 4.05-2.054-.513-3.522-2.004-5.147-3.653C36.756 3.11 33.692 0 27 0zM13.5 16.2C6.3 16.2 1.8 19.8 0 27c2.7-3.6 5.85-4.95 9.45-4.05 2.054.514 3.522 2.004 5.147 3.653C17.244 29.29 20.308 32.4 27 32.4c7.2 0 11.7-3.6 13.5-10.8-2.7 3.6-5.85 4.95-9.45 4.05-2.054-.513-3.522-2.004-5.147-3.653C23.256 19.31 20.192 16.2 13.5 16.2z"
+                      clipRule="evenodd"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="a">
+                      <path fill="#fff" d="M0 0h54v32.4H0z" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span className="pointer-events-none absolute -top-10 rounded-md border border-neutral-700 bg-neutral-800 px-2 py-1 text-xs font-medium whitespace-nowrap text-white opacity-0 shadow-xl transition-all duration-200 group-hover/tooltip:opacity-100">
+                  Tailwind CSS
+                  <div className="absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45 border-r border-b border-neutral-700 bg-neutral-800"></div>
+                </span>
+              </div>
+            </div>
+
+            {/* button */}
+            <div className="mt-auto grid grid-cols-2 gap-3 border-t border-neutral-800/50 pt-5">
+              <a href="https://gastronomy8riw.com/" target="_blank">
+                <button className="group/website relative w-full overflow-hidden rounded-lg bg-[#0c78e5] p-2 text-lg font-semibold text-white transition-all duration-300 hover:rounded-none">
+                  <span className="absolute inset-0 origin-bottom scale-y-0 bg-white transition-transform duration-300 ease-out group-hover/website:scale-y-100" />
+                  <span className="relative z-10 flex items-center justify-center gap-2 transition-colors duration-500 group-hover/website:text-[#0c78e5]">
+                    <BiLinkExternal className="h-4 w-4 shrink-0" />
+                    WebSite
+                  </span>
+                </button>
+              </a>
+              {/* <a
+                href="https://github.com/COTKZA/web-promptpay"
+                target="_blank"
+                className="group/github relative w-full overflow-hidden rounded-lg border border-[#0c78e5] p-1.5 text-lg font-semibold text-white transition-all duration-300 hover:rounded-none"
+              >
+                <span className="absolute inset-0 origin-bottom scale-y-0 bg-[#0c78e5] transition-transform duration-300 ease-out group-hover/github:scale-y-100" />
+
+                <div className="relative z-10 flex items-center justify-center gap-2">
+                  <FaGithub className="h-4 w-4 shrink-0" />
+                  <span>GitHub</span>
+                </div>
+              </a> */}
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
